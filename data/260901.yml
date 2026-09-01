@@ -1,0 +1,67 @@
+about:
+  description: 
+  license: GPL-2.0
+  homepage: http://en.wikipedia.org/wiki/Util-linux
+  head: c3275e3
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-01T05:57:38Z
+timeline:
+  created: 2011-09-07
+  lastCommit: 2026-08-31
+  lastRelease: ?
+popularity:
+  star: 3219
+  watcher: 101
+  fork: 1398
+  release: 0
+  contributor: 846
+  pullRequest: 520
+  issue: 1717
+language:
+  C: 6704111
+  Shell: 1039139
+  C++: 225726
+  Meson: 170670
+  M4: 159537
+  Berry: 84391
+  Yacc: 47152
+  Makefile: 33180
+  Python: 8511
+  Ruby: 2719
+  Lex: 1785
+  Perl: 528
+totalLine: 8477449
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 0
+    mergedPR: 42
+    openPR: 8
+    closedIssue: 10
+    openIssue: 7
+    commit: 117
+  last90d:
+    since: 2026-06-03
+    release: 0
+    mergedPR: 121
+    openPR: 9
+    closedIssue: 28
+    openIssue: 9
+    commit: 385
+  last180d:
+    since: 2026-03-05
+    release: 0
+    mergedPR: 328
+    openPR: 10
+    closedIssue: 68
+    openIssue: 28
+    commit: 1149
+  last360d:
+    since: 2025-09-06
+    release: 0
+    mergedPR: 554
+    openPR: 16
+    closedIssue: 135
+    openIssue: 57
+    commit: 2017
