@@ -2,117 +2,117 @@ about:
   description: ""
   license: GPL-2.0
   homepage: http://en.wikipedia.org/wiki/Util-linux
-  head: 8240bd8
+  head: 66063c6
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:37:50Z
+  collectedAt: 2026-09-09T18:41:59Z
 timeline:
   created: 2011-09-07
-  lastCommit: 2026-09-08
+  lastCommit: 2026-09-09
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 3226
+  star: 3227
   watcher: 101
   fork: 1402
   release: 0
-  contributor: 846
+  contributor: 848
   pullRequest: 2823
   issue: 1723
 language:
-  C: 6708182
-  Shell: 1039792
+  C: 6711809
+  Shell: 1046538
   C++: 225726
   Meson: 170670
   M4: 159537
   Berry: 84391
   Yacc: 47152
-  Makefile: 33180
+  Makefile: 33234
   Python: 8511
   Ruby: 2719
   Lex: 1785
   Perl: 528
-totalBytes: 8482173
+totalBytes: 8492600
 recent:
   last30d:
     since: 2026-08-10
     release: 0
-    mergedPR: 31
-    openPR: 15
-    closedIssue: 9
-    openIssue: 7
-    commit: 72
+    mergedPR: 37
+    openPR: 9
+    closedIssue: 10
+    openIssue: 6
+    commit: 87
   last60d:
     since: 2026-07-11
     release: 0
-    mergedPR: 73
-    openPR: 18
-    closedIssue: 21
-    openIssue: 8
-    commit: 237
+    mergedPR: 79
+    openPR: 12
+    closedIssue: 22
+    openIssue: 7
+    commit: 252
   last90d:
     since: 2026-06-11
     release: 0
-    mergedPR: 113
-    openPR: 18
-    closedIssue: 31
-    openIssue: 10
-    commit: 375
+    mergedPR: 119
+    openPR: 12
+    closedIssue: 32
+    openIssue: 9
+    commit: 390
   last180d:
     since: 2026-03-13
     release: 0
-    mergedPR: 320
-    openPR: 19
-    closedIssue: 67
-    openIssue: 26
-    commit: 1137
+    mergedPR: 326
+    openPR: 13
+    closedIssue: 68
+    openIssue: 25
+    commit: 1152
   last360d:
     since: 2025-09-14
     release: 0
-    mergedPR: 550
-    openPR: 25
-    closedIssue: 136
-    openIssue: 55
-    commit: 2025
+    mergedPR: 556
+    openPR: 19
+    closedIssue: 137
+    openIssue: 54
+    commit: 2040
   last720d:
     since: 2024-09-19
     release: 0
-    mergedPR: 847
-    openPR: 27
-    closedIssue: 246
-    openIssue: 123
-    commit: 3283
+    mergedPR: 853
+    openPR: 21
+    closedIssue: 247
+    openIssue: 122
+    commit: 3298
 total:
   release: 0
-  mergedPR: 2292
-  openPR: 39
-  closedIssue: 1333
-  openIssue: 390
-  commit: 23208
+  mergedPR: 2298
+  openPR: 33
+  closedIssue: 1334
+  openIssue: 389
+  commit: 23223
 ---
 path: /home/runner/.x-repo/github.com/util-linux/util-linux
-collectedAt: 2026-09-09T04:38:36Z
+collectedAt: 2026-09-09T18:42:37Z
 loc:
   C:
-    code: 178911
-    comments: 31637
-    blanks: 33859
+    code: 178964
+    comments: 31667
+    blanks: 33866
     files: 481
   Bash:
-    code: 18782
-    comments: 6642
-    blanks: 6149
-    files: 416
+    code: 18831
+    comments: 6659
+    blanks: 6167
+    files: 417
   AsciiDoc:
-    code: 14193
+    code: 14197
     comments: 1658
-    blanks: 6823
+    blanks: 6825
     files: 170
   CHeader:
-    code: 13564
+    code: 13566
     comments: 4940
     blanks: 3101
     files: 138
@@ -122,15 +122,15 @@ loc:
     blanks: 685
     files: 29
   Automake:
-    code: 4169
+    code: 4171
     comments: 283
-    blanks: 746
+    blanks: 747
     files: 46
   Sh:
-    code: 3309
-    comments: 627
-    blanks: 754
-    files: 37
+    code: 3390
+    comments: 663
+    blanks: 775
+    files: 38
   Autoconf:
     code: 2581
     comments: 351
@@ -187,9 +187,9 @@ loc:
     blanks: 232
     files: 8
 total:
-  code: 244478
-  comments: 48646
-  blanks: 53478
-  files: 1401
+  code: 244669
+  comments: 48729
+  blanks: 53527
+  files: 1403
 ---
 
