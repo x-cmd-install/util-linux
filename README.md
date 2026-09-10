@@ -10,6 +10,18 @@
 x install util-linux
 ```
 
+## Code insight
+
+Total: **244,467** lines of code across **1235** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 178,964 | 31,667 | 33,866 | 481 |
+| Bash | 18,831 | 6,659 | 6,167 | 417 |
+| AsciiDoc | 14,197 | 1,658 | 6,825 | 170 |
+| CHeader | 13,566 | 4,940 | 3,101 | 138 |
+| Meson | 5,955 | 43 | 685 | 29 |
+
 ## Source
 
 - **Upstream**: <https://github.com/util-linux/util-linux>
@@ -29,20 +41,30 @@ x install util-linux
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 34 | 12 | 10 | 7 | 88 |
+| last60d | 2026-07-12 | 0 | 79 | 15 | 22 | 8 | 253 |
 | 90d | 2026-06-12 | 0 | 119 | 15 | 32 | 10 | 391 |
+| last180d | 2026-03-14 | 0 | 325 | 16 | 68 | 26 | 1153 |
 | 360d | 2025-09-15 | 0 | 555 | 22 | 137 | 55 | 2041 |
+| last720d | 2024-09-20 | 0 | 851 | 24 | 247 | 123 | 3298 |
 
-## Code size
+## Distribution status
 
-Total: **244,467** lines of code across **1235** files in the top 5 languages.
+Reported by **908** distros on [repology.org](https://repology.org/project/util-linux). **136** are ✅ on the latest upstream release, **728** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 178,964 | 31,667 | 33,866 | 481 |
-| Bash | 18,831 | 6,659 | 6,167 | 417 |
-| AsciiDoc | 14,197 | 1,658 | 6,825 | 170 |
-| CHeader | 13,566 | 4,940 | 3,101 | 138 |
-| Meson | 5,955 | 43 | 685 | 29 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.42.2` | 🪦 legacy |
+| Debian 14 | `2.42.2` | ⚠️ outdated |
+| Debian 13 | `2.41` | 🪦 legacy |
+| Ubuntu 26.04 LTS | `2.41.3` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.39.3` | ⚠️ outdated |
+| Arch | `2.42.3` | ✅ latest |
+| Homebrew | `2.42.3` | ✅ latest |
+| Fedora rawhide | `2.42.2` | ⚠️ outdated |
+| Nix unstable | `2.42.2` | ⚠️ outdated |
+| Void | `2.41.4` | ⚠️ outdated |
+| Alpine edge | `2.42.3` | ✅ latest |
+| openSUSE Tumbleweed | `2.42.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -53,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:21:28Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:20:59Z._
