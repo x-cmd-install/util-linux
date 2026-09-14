@@ -34,37 +34,18 @@ Total: **244,726** lines of code across **1235** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2301 · **Open PRs**: 40 · **Closed issues**: 1334 · **Open issues**: 391 · **Commits**: 23231
+- **Releases**: 0 · **Merged PRs**: 2301 · **Open PRs**: 40 · **Closed issues**: 1335 · **Open issues**: 390 · **Commits**: 23231
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 28 | 15 | 8 | 8 | 73 |
-| last60d | 2026-07-15 | 0 | 74 | 19 | 22 | 9 | 224 |
-| 90d | 2026-06-15 | 0 | 114 | 19 | 31 | 11 | 367 |
-| last180d | 2026-03-17 | 0 | 323 | 20 | 67 | 25 | 1122 |
-| 360d | 2025-09-18 | 0 | 555 | 26 | 136 | 56 | 2031 |
-| last720d | 2024-09-23 | 0 | 851 | 28 | 246 | 122 | 3302 |
-
-## Distribution status
-
-Reported by **908** distros on [repology.org](https://repology.org/project/util-linux). **136** are ✅ on the latest upstream release, **729** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.42.2` | 🪦 legacy |
-| Debian 14 | `2.42.2` | ⚠️ outdated |
-| Debian 13 | `2.41.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.41.3` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.39.3` | ⚠️ outdated |
-| Arch | `2.42.3` | ✅ latest |
-| Homebrew | `2.42.3` | ✅ latest |
-| Fedora rawhide | `2.42.2` | ⚠️ outdated |
-| Nix unstable | `2.42.2` | ⚠️ outdated |
-| Void | `2.41.4` | ⚠️ outdated |
-| Alpine edge | `2.42.3` | ✅ latest |
-| openSUSE Tumbleweed | `2.42.2` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 28 | 15 | 7 | 8 | 73 |
+| last60d | 2026-07-16 | 0 | 74 | 19 | 22 | 9 | 224 |
+| 90d | 2026-06-16 | 0 | 111 | 19 | 31 | 11 | 367 |
+| last180d | 2026-03-18 | 0 | 321 | 20 | 68 | 24 | 1122 |
+| 360d | 2025-09-19 | 0 | 555 | 26 | 137 | 55 | 2031 |
+| last720d | 2024-09-24 | 0 | 847 | 28 | 246 | 121 | 3294 |
 
 ## Improve this data
 
@@ -75,4 +56,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:42:41Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:51:10Z._
