@@ -2,7 +2,7 @@
 
 [中文版本](./README.cn.md)
 
-![util-linux](https://repo.x-cmd.io/util-linux.svg)
+[![x-cmd/install — util-linux Code Quality Monitoring Repo Card](https://repo.x-cmd.io/util-linux.svg)](https://x-cmd.com/install/util-linux)
 
 ## Install
 
@@ -30,22 +30,22 @@ Total: **245,431** lines of code across **1238** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,231 · **Forks**: 1,411 · **Open issues**: 1,730 · **Contributors**: 849
+- **Stars**: 3,231 · **Forks**: 1,412 · **Open issues**: 1,730 · **Contributors**: 849
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2308 · **Open PRs**: 41 · **Closed issues**: 1336 · **Open issues**: 394 · **Commits**: 23258
+- **Releases**: 0 · **Merged PRs**: 2308 · **Open PRs**: 42 · **Closed issues**: 1336 · **Open issues**: 394 · **Commits**: 23258
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 31 | 15 | 7 | 11 | 96 |
-| last60d | 2026-07-20 | 0 | 76 | 20 | 23 | 13 | 247 |
-| 90d | 2026-06-20 | 0 | 114 | 20 | 30 | 15 | 390 |
-| last180d | 2026-03-22 | 0 | 323 | 21 | 69 | 28 | 1145 |
-| 360d | 2025-09-23 | 0 | 557 | 27 | 135 | 59 | 2054 |
-| last720d | 2024-09-28 | 0 | 850 | 29 | 245 | 125 | 3298 |
+| 30d | 2026-08-21 | 0 | 29 | 16 | 7 | 10 | 68 |
+| last60d | 2026-07-22 | 0 | 72 | 21 | 19 | 13 | 224 |
+| 90d | 2026-06-22 | 0 | 110 | 21 | 29 | 15 | 360 |
+| last180d | 2026-03-24 | 0 | 318 | 22 | 68 | 28 | 1108 |
+| 360d | 2025-09-25 | 0 | 556 | 28 | 135 | 58 | 2044 |
+| last720d | 2024-09-30 | 0 | 850 | 30 | 245 | 125 | 3298 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:39:06Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:57:43Z._
