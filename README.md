@@ -12,12 +12,12 @@ x install util-linux
 
 ## Code insight
 
-Total: **245,600** lines of code across **1240** files in the top 5 languages.
+Total: **245,618** lines of code across **1240** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 179,791 | 31,956 | 34,022 | 482 |
-| Bash | 19,028 | 6,739 | 6,229 | 421 |
+| C | 179,792 | 31,956 | 34,022 | 482 |
+| Bash | 19,045 | 6,744 | 6,231 | 421 |
 | AsciiDoc | 14,201 | 1,658 | 6,829 | 170 |
 | CHeader | 13,618 | 4,944 | 3,111 | 138 |
 | Meson | 5,977 | 43 | 687 | 29 |
@@ -30,22 +30,22 @@ Total: **245,600** lines of code across **1240** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,232 · **Forks**: 1,416 · **Open issues**: 1,732 · **Contributors**: 853
+- **Stars**: 3,233 · **Forks**: 1,416 · **Open issues**: 1,732 · **Contributors**: 855
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2318 · **Open PRs**: 43 · **Closed issues**: 1338 · **Open issues**: 394 · **Commits**: 23283
+- **Releases**: 0 · **Merged PRs**: 2321 · **Open PRs**: 40 · **Closed issues**: 1339 · **Open issues**: 393 · **Commits**: 23289
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 27 | 15 | 7 | 9 | 66 |
-| last60d | 2026-07-31 | 0 | 72 | 21 | 18 | 14 | 224 |
-| 90d | 2026-07-01 | 0 | 103 | 22 | 28 | 15 | 348 |
-| last180d | 2026-04-02 | 0 | 305 | 23 | 63 | 27 | 1068 |
-| 360d | 2025-10-04 | 0 | 560 | 29 | 131 | 55 | 2032 |
-| last720d | 2024-10-09 | 0 | 857 | 31 | 245 | 124 | 3300 |
+| 30d | 2026-08-31 | 0 | 29 | 12 | 8 | 8 | 72 |
+| last60d | 2026-08-01 | 0 | 73 | 18 | 19 | 13 | 230 |
+| 90d | 2026-07-02 | 0 | 106 | 19 | 29 | 14 | 354 |
+| last180d | 2026-04-03 | 0 | 298 | 20 | 64 | 26 | 1074 |
+| 360d | 2025-10-05 | 0 | 562 | 26 | 132 | 54 | 2038 |
+| last720d | 2024-10-10 | 0 | 859 | 28 | 246 | 123 | 3305 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:41:45Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:37:35Z._
