@@ -34,18 +34,18 @@ Total: **245,896** lines of code across **1241** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2331 · **Open PRs**: 42 · **Closed issues**: 1341 · **Open issues**: 392 · **Commits**: 23310
+- **Releases**: 0 · **Merged PRs**: 2331 · **Open PRs**: 44 · **Closed issues**: 1341 · **Open issues**: 392 · **Commits**: 23310
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-07 | 0 | 34 | 13 | 4 | 6 | 63 |
-| last60d | 2026-08-08 | 0 | 73 | 19 | 15 | 12 | 188 |
-| 90d | 2026-07-09 | 0 | 111 | 21 | 27 | 14 | 353 |
-| last180d | 2026-04-10 | 0 | 277 | 22 | 60 | 26 | 972 |
-| 360d | 2025-10-12 | 0 | 558 | 28 | 130 | 53 | 2001 |
-| last720d | 2024-10-17 | 0 | 867 | 30 | 244 | 122 | 3320 |
+| 30d | 2026-09-08 | 0 | 29 | 15 | 4 | 6 | 63 |
+| last60d | 2026-08-09 | 0 | 72 | 20 | 15 | 12 | 188 |
+| 90d | 2026-07-10 | 0 | 110 | 23 | 26 | 13 | 353 |
+| last180d | 2026-04-11 | 0 | 276 | 24 | 59 | 26 | 972 |
+| 360d | 2025-10-13 | 0 | 556 | 30 | 130 | 53 | 2001 |
+| last720d | 2024-10-18 | 0 | 867 | 32 | 244 | 122 | 3318 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261007.yml` · 2026-10-07T05:50:26Z._
+_Snapshot: `data/card/261008.yml` · 2026-10-08T05:59:24Z._
