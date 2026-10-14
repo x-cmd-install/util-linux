@@ -12,11 +12,11 @@ x install util-linux
 
 ## Code insight
 
-Total: **245,892** lines of code across **1243** files in the top 5 languages.
+Total: **245,894** lines of code across **1243** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 179,845 | 32,094 | 34,226 | 482 |
+| C | 179,847 | 32,095 | 34,227 | 482 |
 | Bash | 19,245 | 6,805 | 6,291 | 424 |
 | AsciiDoc | 14,202 | 1,658 | 6,829 | 170 |
 | CHeader | 13,637 | 4,952 | 3,116 | 138 |
@@ -30,22 +30,22 @@ Total: **245,892** lines of code across **1243** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,240 · **Forks**: 1,425 · **Open issues**: 1,735 · **Contributors**: 860
+- **Stars**: 3,240 · **Forks**: 1,427 · **Open issues**: 1,736 · **Contributors**: 861
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2337 · **Open PRs**: 49 · **Closed issues**: 1345 · **Open issues**: 390 · **Commits**: 23325
+- **Releases**: 0 · **Merged PRs**: 2339 · **Open PRs**: 51 · **Closed issues**: 1345 · **Open issues**: 391 · **Commits**: 23329
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 28 | 19 | 4 | 6 | 57 |
-| last60d | 2026-08-14 | 0 | 64 | 24 | 14 | 12 | 168 |
-| 90d | 2026-07-15 | 0 | 110 | 28 | 28 | 13 | 318 |
-| last180d | 2026-04-16 | 0 | 269 | 29 | 61 | 25 | 886 |
-| 360d | 2025-10-18 | 0 | 560 | 35 | 132 | 52 | 1998 |
-| last720d | 2024-10-23 | 0 | 868 | 37 | 245 | 121 | 3320 |
+| 30d | 2026-09-14 | 0 | 28 | 20 | 4 | 5 | 60 |
+| last60d | 2026-08-15 | 0 | 66 | 26 | 13 | 13 | 171 |
+| 90d | 2026-07-16 | 0 | 112 | 30 | 28 | 14 | 321 |
+| last180d | 2026-04-17 | 0 | 269 | 31 | 61 | 26 | 889 |
+| 360d | 2025-10-19 | 0 | 562 | 37 | 132 | 53 | 2001 |
+| last720d | 2024-10-24 | 0 | 870 | 39 | 244 | 122 | 3324 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:56:52Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:49:07Z._
