@@ -30,7 +30,7 @@ Total: **247,381** lines of code across **1258** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,240 · **Forks**: 1,430 · **Open issues**: 1,739 · **Contributors**: 870
+- **Stars**: 3,242 · **Forks**: 1,430 · **Open issues**: 1,739 · **Contributors**: 870
 
 ## Totals (cumulative)
 
@@ -40,16 +40,16 @@ Total: **247,381** lines of code across **1258** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 0 | 40 | 24 | 6 | 2 | 115 |
-| last60d | 2026-08-25 | 0 | 82 | 31 | 19 | 5 | 221 |
-| 90d | 2026-07-26 | 0 | 123 | 36 | 30 | 10 | 376 |
-| last180d | 2026-04-27 | 0 | 263 | 37 | 59 | 19 | 887 |
-| 360d | 2025-10-29 | 0 | 584 | 43 | 134 | 47 | 2072 |
-| last720d | 2024-11-03 | 0 | 889 | 45 | 250 | 113 | 3379 |
+| 30d | 2026-09-25 | 0 | 40 | 24 | 6 | 2 | 106 |
+| last60d | 2026-08-26 | 0 | 79 | 31 | 19 | 5 | 199 |
+| 90d | 2026-07-27 | 0 | 123 | 36 | 29 | 10 | 354 |
+| last180d | 2026-04-28 | 0 | 259 | 37 | 57 | 19 | 801 |
+| 360d | 2025-10-30 | 0 | 582 | 43 | 133 | 46 | 2015 |
+| last720d | 2024-11-04 | 0 | 888 | 45 | 249 | 112 | 3379 |
 
 ## Distribution status
 
-Reported by **897** distros on [repology.org](https://repology.org/project/util-linux). **131** are ✅ on the latest upstream release, **723** are ⚠️ on an older version.
+Reported by **897** distros on [repology.org](https://repology.org/project/util-linux). **132** are ✅ on the latest upstream release, **722** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:32:06Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:38:11Z._
