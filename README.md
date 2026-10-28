@@ -40,16 +40,16 @@ Total: **247,482** lines of code across **1259** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 41 | 25 | 5 | 5 | 114 |
-| last60d | 2026-08-28 | 0 | 79 | 31 | 18 | 8 | 208 |
-| 90d | 2026-07-29 | 0 | 124 | 36 | 29 | 13 | 363 |
-| last180d | 2026-04-30 | 0 | 259 | 36 | 54 | 21 | 810 |
-| 360d | 2025-11-01 | 0 | 579 | 43 | 132 | 49 | 2024 |
-| last720d | 2024-11-06 | 0 | 889 | 45 | 248 | 115 | 3381 |
+| 30d | 2026-09-28 | 0 | 40 | 25 | 5 | 5 | 114 |
+| last60d | 2026-08-29 | 0 | 78 | 31 | 18 | 8 | 208 |
+| 90d | 2026-07-30 | 0 | 124 | 35 | 29 | 13 | 363 |
+| last180d | 2026-05-01 | 0 | 259 | 36 | 54 | 21 | 810 |
+| 360d | 2025-11-02 | 0 | 577 | 43 | 132 | 49 | 2024 |
+| last720d | 2024-11-07 | 0 | 886 | 45 | 248 | 114 | 3377 |
 
 ## Distribution status
 
-Reported by **897** distros on [repology.org](https://repology.org/project/util-linux). **132** are ✅ on the latest upstream release, **722** are ⚠️ on an older version.
+Reported by **898** distros on [repology.org](https://repology.org/project/util-linux). **133** are ✅ on the latest upstream release, **721** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T04:57:44Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T05:30:29Z._
