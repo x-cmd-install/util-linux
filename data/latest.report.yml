@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-30T05:40:45Z
+  collectedAt: 2026-10-31T05:28:11Z
 timeline:
   created: 2011-09-07
   lastCommit: 2026-10-26
@@ -17,11 +17,11 @@ timeline:
 popularity:
   star: 3247
   watcher: 101
-  fork: 1432
+  fork: 1434
   release: 0
   contributor: 871
-  pullRequest: 2924
-  issue: 1742
+  pullRequest: 2928
+  issue: 1743
 language:
   C: 6791277
   Shell: 1108113
@@ -38,63 +38,63 @@ language:
 totalBytes: 8634745
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
-    mergedPR: 37
-    openPR: 25
+    mergedPR: 36
+    openPR: 28
     closedIssue: 5
-    openIssue: 5
+    openIssue: 6
     commit: 114
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 74
-    openPR: 30
+    openPR: 34
     closedIssue: 18
-    openIssue: 8
+    openIssue: 7
     commit: 208
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
     mergedPR: 119
-    openPR: 35
+    openPR: 39
     closedIssue: 29
-    openIssue: 13
+    openIssue: 14
     commit: 363
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
-    mergedPR: 253
-    openPR: 36
+    mergedPR: 251
+    openPR: 40
     closedIssue: 53
     openIssue: 21
     commit: 810
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
     mergedPR: 574
-    openPR: 43
+    openPR: 47
     closedIssue: 130
-    openIssue: 49
+    openIssue: 50
     commit: 2024
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
     mergedPR: 885
-    openPR: 45
+    openPR: 49
     closedIssue: 248
-    openIssue: 113
+    openIssue: 114
     commit: 3374
 total:
   release: 0
   mergedPR: 2367
-  openPR: 57
+  openPR: 61
   closedIssue: 1356
-  openIssue: 386
+  openIssue: 387
   commit: 23416
 ---
 path: /home/runner/.x-repo/github.com/util-linux/util-linux
-collectedAt: 2026-10-30T05:41:29Z
+collectedAt: 2026-10-31T05:28:47Z
 loc:
   C:
     code: 180574
