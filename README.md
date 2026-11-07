@@ -30,26 +30,26 @@ Total: **247,963** lines of code across **1265** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,250 · **Forks**: 1,436 · **Open issues**: 1,746 · **Contributors**: 874
+- **Stars**: 3,249 · **Forks**: 1,436 · **Open issues**: 1,746 · **Contributors**: 874
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2382 · **Open PRs**: 55 · **Closed issues**: 1360 · **Open issues**: 386 · **Commits**: 23465
+- **Releases**: 0 · **Merged PRs**: 2382 · **Open PRs**: 58 · **Closed issues**: 1360 · **Open issues**: 386 · **Commits**: 23465
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 42 | 22 | 7 | 6 | 132 |
-| last60d | 2026-09-07 | 0 | 84 | 28 | 15 | 8 | 234 |
-| 90d | 2026-08-08 | 0 | 124 | 32 | 26 | 14 | 362 |
-| last180d | 2026-05-10 | 0 | 256 | 34 | 54 | 20 | 809 |
-| 360d | 2025-11-11 | 0 | 584 | 41 | 128 | 49 | 2055 |
-| last720d | 2024-11-16 | 0 | 898 | 43 | 249 | 113 | 3419 |
+| 30d | 2026-10-08 | 0 | 41 | 25 | 6 | 6 | 132 |
+| last60d | 2026-09-08 | 0 | 79 | 31 | 15 | 8 | 234 |
+| 90d | 2026-08-09 | 0 | 123 | 34 | 26 | 14 | 362 |
+| last180d | 2026-05-11 | 0 | 255 | 37 | 53 | 20 | 809 |
+| 360d | 2025-11-12 | 0 | 582 | 44 | 126 | 49 | 2055 |
+| last720d | 2024-11-17 | 0 | 896 | 46 | 249 | 113 | 3419 |
 
 ## Distribution status
 
-Reported by **898** distros on [repology.org](https://repology.org/project/util-linux). **156** are ✅ on the latest upstream release, **699** are ⚠️ on an older version.
+Reported by **900** distros on [repology.org](https://repology.org/project/util-linux). **165** are ✅ on the latest upstream release, **691** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:30:09Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:55:37Z._
