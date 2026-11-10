@@ -30,31 +30,31 @@ Total: **247,963** lines of code across **1265** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,249 · **Forks**: 1,436 · **Open issues**: 1,746 · **Contributors**: 874
+- **Stars**: 3,250 · **Forks**: 1,436 · **Open issues**: 1,747 · **Contributors**: 874
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2382 · **Open PRs**: 60 · **Closed issues**: 1360 · **Open issues**: 386 · **Commits**: 23465
+- **Releases**: 0 · **Merged PRs**: 2382 · **Open PRs**: 60 · **Closed issues**: 1360 · **Open issues**: 387 · **Commits**: 23465
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 38 | 27 | 5 | 6 | 82 |
-| last60d | 2026-09-09 | 0 | 78 | 33 | 15 | 8 | 206 |
-| 90d | 2026-08-10 | 0 | 119 | 36 | 25 | 14 | 317 |
-| last180d | 2026-05-12 | 0 | 252 | 39 | 53 | 19 | 748 |
-| 360d | 2025-11-13 | 0 | 582 | 46 | 126 | 49 | 2048 |
-| last720d | 2024-11-18 | 0 | 895 | 48 | 249 | 113 | 3417 |
+| 30d | 2026-10-11 | 0 | 36 | 27 | 5 | 7 | 82 |
+| last60d | 2026-09-11 | 0 | 73 | 32 | 13 | 9 | 206 |
+| 90d | 2026-08-12 | 0 | 112 | 36 | 24 | 15 | 317 |
+| last180d | 2026-05-14 | 0 | 245 | 39 | 53 | 19 | 748 |
+| 360d | 2025-11-15 | 0 | 582 | 46 | 126 | 50 | 2048 |
+| last720d | 2024-11-20 | 0 | 891 | 48 | 249 | 114 | 3392 |
 
 ## Distribution status
 
-Reported by **901** distros on [repology.org](https://repology.org/project/util-linux). **166** are ✅ on the latest upstream release, **690** are ⚠️ on an older version.
+Reported by **904** distros on [repology.org](https://repology.org/project/util-linux). **167** are ✅ on the latest upstream release, **692** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `2.41.5` | 🪦 legacy |
-| Debian 14 | `2.41.5` | 🪦 legacy |
+| Debian unstable | `2.42.2` | 🪦 legacy |
+| Debian 14 | `2.42.2` | 🪦 legacy |
 | Debian 13 | `2.41.5` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.41.3` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.39.3` | ⚠️ outdated |
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:55:13Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:13:36Z._
