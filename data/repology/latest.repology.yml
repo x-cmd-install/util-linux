@@ -1,250 +1,66 @@
-- repo: nix_stable_26_05
+- repo: slackware_current
+  subrepo: slackware
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: patches
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: patches
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: aerynos
   srcname: util-linux
   visiblename: util-linux
   version: 2.42.4
   origversion: null
   status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - nix@leona.is
-    - pyrox@pyrox.dev
+  summary: Random collection of Linux utilities
   licenses:
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
     - GPL-2.0-only
     - GPL-2.0-or-later
     - GPL-3.0-or-later
     - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-- repo: nix_stable_26_05
-  srcname: util-linuxMinimal
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - nix@leona.is
-    - pyrox@pyrox.dev
-  licenses:
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-- repo: nix_stable_26_05
-  srcname: wall
+    - Public-Domain
+- repo: aosc
+  srcname: app-utils/util-linux
+  binname: util-linux
   visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
+  version: 2.42.3
+  origversion: 2.42.3-2
+  status: outdated
+  summary: Utilities and management tools for Linux (binaries)
   maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: hexdump
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: libuuid
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - nix@leona.is
-    - pyrox@pyrox.dev
-  licenses:
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-- repo: nix_stable_26_05
-  srcname: logger
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: more
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: mount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: eject
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_stable_26_05
-  srcname: unixtools.util-linux
-  visiblename: util-linux
-  version: 1003.1-2008
-  origversion: null
-  status: ignored
-  maintainers:
-    - fallback-mnt-nix@repology
+    - fallback-mnt-aosc@repology
   categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: eject
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: umount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: unixtools.col
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.column
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.eject
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.fdisk
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.fsck
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.getopt
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.hexdump
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.logger
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.more
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.mount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_unstable
-  srcname: unixtools.script
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
+    - utils
 - repo: nix_unstable
   srcname: unixtools.umount
   visiblename: util-linux
@@ -255,6 +71,18 @@
     - fallback-mnt-nix@repology
   categories:
     - unixtools
+- repo: aosc
+  srcname: runtime-optenv32/util-linux+32
+  binname: util-linux+32
+  visiblename: util-linux+32
+  version: 2.42.3
+  origversion: null
+  status: outdated
+  summary: Utilities and management tools for Linux (32-bit x86 runtime)
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: nix_unstable
   srcname: unixtools.wall
   visiblename: util-linux
@@ -285,202 +113,6 @@
     - fallback-mnt-nix@repology
   categories:
     - unixtools
-- repo: nix_unstable
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - pyrox@pyrox.dev
-- repo: nix_unstable
-  srcname: util-linuxMinimal
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - pyrox@pyrox.dev
-- repo: nix_unstable
-  srcname: wall
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: libuuid
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-    - balsoft75@gmail.com
-    - andreas@rammhold.de
-    - pyrox@pyrox.dev
-- repo: nix_unstable
-  srcname: logger
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: more
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: mount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: hexdump
-  visiblename: util-linux-minimal
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-- repo: nix_unstable
-  srcname: unixtools.util-linux
-  visiblename: util-linux
-  version: 1003.1-2008
-  origversion: null
-  status: ignored
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: openmamba
-  subrepo: base
-  srcname: util-linux
-  binnames:
-    - util-linux
-    - libblkid
-    - libblkid-devel
-    - libsmartcols
-    - libsmartcols-devel
-    - libuuid
-    - libuuid-devel
-    - liblastlog2
-    - liblastlog2-devel
-    - libmount
-    - libmount-devel
-    - libfdisk
-    - libfdisk-devel
-    - python-libmount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: 1:2.42.4-3mamba
-  status: newest
-  summary: Miscellaneous utilities for Linux
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - GPL
-  categories:
-    - System/Tools
-- repo: aerynos
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  summary: Random collection of Linux utilities
-  licenses:
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - Public-Domain
-- repo: stalix
-  srcname: bin/util/linux
-  binname: bin/util/linux
-  visiblename: bin/util/linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: aosc
-  srcname: app-utils/util-linux
-  binname: util-linux
-  visiblename: util-linux
-  version: 2.42.3
-  origversion: 2.42.3-2
-  status: outdated
-  summary: Utilities and management tools for Linux (binaries)
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
-- repo: stalix
-  srcname: bin/util/wipefs
-  binname: bin/util/wipefs
-  visiblename: bin/util/wipefs
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: nix_stable_26_05
-  srcname: unixtools.umount
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: nix_stable_26_05
-  srcname: unixtools.wall
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-- repo: aosc
-  srcname: runtime-optenv32/util-linux+32
-  binname: util-linux+32
-  visiblename: util-linux+32
-  version: 2.42.3
-  origversion: null
-  status: outdated
-  summary: Utilities and management tools for Linux (32-bit x86 runtime)
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - utils
 - repo: alpine_3_24
   subrepo: main
   srcname: util-linux
@@ -533,6 +165,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+- repo: stalix_dev
+  srcname: lib/linux/util
+  binname: lib/linux/util
+  visiblename: lib/linux/util
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - lib
 - repo: alpine_3_24
   subrepo: main
   srcname: util-linux
@@ -741,19 +384,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-- repo: alpine_edge
-  subrepo: main
-  srcname: util-linux
-  binname: libfdisk
-  visiblename: libfdisk
-  version: 2.42.4
-  origversion: 2.42.4-r3
-  status: newest
-  summary: Partitioning library for fdisk-like programs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
 - repo: alpine_3_24
   subrepo: main
   srcname: util-linux
@@ -767,6 +397,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: util-linux
+  binname: agetty
+  visiblename: agetty
+  version: 2.42.4
+  origversion: 2.42.4-r3
+  status: newest
+  summary: agetty program from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
 - repo: alpine_3_24
   subrepo: main
   srcname: util-linux
@@ -991,19 +634,6 @@
 - repo: alpine_edge
   subrepo: main
   srcname: util-linux
-  binname: agetty
-  visiblename: agetty
-  version: 2.42.4
-  origversion: 2.42.4-r3
-  status: newest
-  summary: agetty program from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-- repo: alpine_edge
-  subrepo: main
-  srcname: util-linux
   binname: blkid
   visiblename: blkid
   version: 2.42.4
@@ -1101,6 +731,19 @@
   origversion: 2.42.4-r3
   status: newest
   summary: Block device identification library from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: util-linux
+  binname: libfdisk
+  visiblename: libfdisk
+  version: 2.42.4
+  origversion: 2.42.4-r3
+  status: newest
+  summary: Partitioning library for fdisk-like programs
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -1235,6 +878,16 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+- repo: starkos
+  subrepo: main
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: 2.42.4-1
+  status: newest
+  summary: Utilities for handling file systems, consoles, partitions, and messages
+  maintainers:
+    - starkos@disroot.org
 - repo: alpine_edge
   subrepo: main
   srcname: util-linux
@@ -1663,6 +1316,16 @@
     - ISC
     - LGPL-2.1-or-later
     - LicenseRef-PublicDomain
+- repo: nix_stable_26_05
+  srcname: unixtools.script
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
 - repo: chromebrew
   srcname: util_linux
   visiblename: util_linux
@@ -1692,6 +1355,13 @@
   summary: Miscellaneous system utilities
   maintainers:
     - compat-32-ports@crux.nu
+- repo: conancenter
+  srcname: libmount
+  visiblename: libmount
+  version: "2.39"
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: debian_14
   subrepo: forky/main
   srcname: util-linux
@@ -1933,6 +1603,16 @@
   categories:
     - sys-apps
 - repo: nix_stable_26_05
+  srcname: unixtools.umount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_stable_26_05
   srcname: unixtools.whereis
   visiblename: util-linux
   version: 2.42.4
@@ -2097,7 +1777,7 @@
   status: outdated
   summary: Collection of utilities for the Linux kernel
 - repo: nix_stable_26_05
-  srcname: unixtools.write
+  srcname: unixtools.wall
   visiblename: util-linux
   version: 2.42.4
   origversion: null
@@ -2120,15 +1800,6 @@
   origversion: null
   status: newest
   summary: Collection of Linux utilities
-- repo: slackware_current
-  subrepo: slackware
-  binname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: kali_rolling
   subrepo: main
   srcname: util-linux
@@ -2322,33 +1993,16 @@
     - public-domain
   categories:
     - devel
-- repo: slackware64_15_0
-  subrepo: patches
-  binname: util-linux
+- repo: nix_stable_26_05
+  srcname: unixtools.write
   visiblename: util-linux
   version: 2.42.4
   origversion: null
   status: newest
   maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: patches
-  binname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
 - repo: mageia_10
   subrepo: core/updates
   srcname: util-linux
@@ -2516,25 +2170,6 @@
     - LGPL-2.1-or-later
     - LicenseRef-PublicDomain
 - repo: manjaro_unstable
-  subrepo: multilib
-  srcname: lib32-util-linux
-  binname: lib32-util-linux
-  visiblename: lib32-util-linux
-  version: 2.42.4
-  origversion: 2.42.4-1
-  status: newest
-  summary: Miscellaneous system utilities for Linux (32-bit)
-  licenses:
-    - BSD-2-Clause
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - ISC
-    - LGPL-2.1-or-later
-    - LicenseRef-PublicDomain
-- repo: manjaro_unstable
   subrepo: core
   srcname: util-linux
   binname: util-linux-libs
@@ -2562,6 +2197,25 @@
   origversion: 2.42.4-1
   status: newest
   summary: Miscellaneous system utilities for Linux
+  licenses:
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - ISC
+    - LGPL-2.1-or-later
+    - LicenseRef-PublicDomain
+- repo: manjaro_unstable
+  subrepo: multilib
+  srcname: lib32-util-linux
+  binname: lib32-util-linux
+  visiblename: lib32-util-linux
+  version: 2.42.4
+  origversion: 2.42.4-1
+  status: newest
+  summary: Miscellaneous system utilities for Linux (32-bit)
   licenses:
     - BSD-2-Clause
     - BSD-3-Clause
@@ -2612,6 +2266,14 @@
     - fallback-mnt-nix@repology
   categories:
     - unixtools
+- repo: nix_stable_26_05
+  srcname: eject
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
 - repo: nix_stable_26_05
   srcname: umount
   visiblename: util-linux
@@ -2721,6 +2383,271 @@
   categories:
     - unixtools
 - repo: nix_stable_26_05
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - nix@leona.is
+    - pyrox@pyrox.dev
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+- repo: nix_stable_26_05
+  srcname: util-linuxMinimal
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - nix@leona.is
+    - pyrox@pyrox.dev
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+- repo: nix_stable_26_05
+  srcname: wall
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: libuuid
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - nix@leona.is
+    - pyrox@pyrox.dev
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+- repo: nix_stable_26_05
+  srcname: logger
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: more
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: mount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: hexdump
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_stable_26_05
+  srcname: unixtools.util-linux
+  visiblename: util-linux
+  version: 1003.1-2008
+  origversion: null
+  status: ignored
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: eject
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: libuuid
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - pyrox@pyrox.dev
+- repo: nix_unstable
+  srcname: logger
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: more
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: mount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: umount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: unixtools.col
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.column
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.eject
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.fdisk
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.fsck
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.getopt
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.hexdump
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.logger
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.more
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
+  srcname: unixtools.mount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: nix_unstable
   srcname: unixtools.script
   visiblename: util-linux
   version: 2.42.4
@@ -2730,6 +2657,85 @@
     - fallback-mnt-nix@repology
   categories:
     - unixtools
+- repo: nix_unstable
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - pyrox@pyrox.dev
+- repo: nix_unstable
+  srcname: util-linuxMinimal
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+    - balsoft75@gmail.com
+    - andreas@rammhold.de
+    - pyrox@pyrox.dev
+- repo: nix_unstable
+  srcname: wall
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: hexdump
+  visiblename: util-linux-minimal
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - fallback-mnt-nix@repology
+- repo: nix_unstable
+  srcname: unixtools.util-linux
+  visiblename: util-linux
+  version: 1003.1-2008
+  origversion: null
+  status: ignored
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+- repo: openmamba
+  subrepo: base
+  srcname: util-linux
+  binnames:
+    - util-linux
+    - libblkid
+    - libblkid-devel
+    - libsmartcols
+    - libsmartcols-devel
+    - libuuid
+    - libuuid-devel
+    - liblastlog2
+    - liblastlog2-devel
+    - libmount
+    - libmount-devel
+    - libfdisk
+    - libfdisk-devel
+    - python-libmount
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: 1:2.42.4-3mamba
+  status: newest
+  summary: Miscellaneous utilities for Linux
+  maintainers:
+    - silvan@openmamba.org
+  licenses:
+    - GPL
+  categories:
+    - System/Tools
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: util-linux
@@ -2818,25 +2824,6 @@
     - GPLv2 and GPLv2+ and BSD with advertising and Public Domain
   categories:
     - System/Base
-- repo: parabola
-  subrepo: core
-  srcname: util-linux
-  binname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: 2.42.4-1
-  status: newest
-  summary: Miscellaneous system utilities for Linux
-  licenses:
-    - BSD-2-Clause
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - ISC
-    - LGPL-2.1-or-later
-    - LicenseRef-PublicDomain
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: util-linux
@@ -2890,25 +2877,36 @@
     - GPL-2.0-or-later
   categories:
     - System/Base
-- repo: ptxdist
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: null
-  status: newest
-  licenses:
-    - GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND BSD-4-Clause AND MIT AND ISC AND public_domain
-- repo: stalix
-  srcname: lib/linux/util
-  binname: lib/linux/util
-  visiblename: lib/linux/util
+- repo: stalix_dev
+  srcname: bin/mount
+  binname: bin/mount
+  visiblename: bin/mount
   version: 2.42.4
   origversion: null
   status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
-    - lib
+    - bin
+- repo: parabola
+  subrepo: core
+  srcname: util-linux
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: 2.42.4-1
+  status: newest
+  summary: Miscellaneous system utilities for Linux
+  licenses:
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - ISC
+    - LGPL-2.1-or-later
+    - LicenseRef-PublicDomain
 - repo: parabola
   subrepo: core
   srcname: util-linux
@@ -2981,6 +2979,14 @@
   version: 2.42.4
   origversion: 2.42.4-1
   status: newest
+- repo: ptxdist
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  licenses:
+    - GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.0-or-later AND BSD-3-Clause AND BSD-4-Clause AND MIT AND ISC AND public_domain
 - repo: raspbian_testing
   subrepo: main
   srcname: util-linux
@@ -3061,6 +3067,28 @@
     - fallback-mnt-ravenports@repology
   categories:
     - sysutils
+- repo: stalix_dev
+  srcname: bin/util/linux
+  binname: bin/util/linux
+  visiblename: bin/util/linux
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/util/wipefs
+  binname: bin/util/wipefs
+  visiblename: bin/util/wipefs
+  version: 2.42.4
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: serenityos
   srcname: libuuid
   visiblename: libuuid
@@ -3232,18 +3260,7 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: stalix_dev
-  srcname: bin/mount
-  binname: bin/mount
-  visiblename: bin/mount
-  version: 2.42.4
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: stalix_dev
+- repo: stalix
   srcname: bin/util/linux
   binname: bin/util/linux
   visiblename: bin/util/linux
@@ -3254,7 +3271,7 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: stalix_dev
+- repo: stalix
   srcname: bin/util/wipefs
   binname: bin/util/wipefs
   visiblename: bin/util/wipefs
@@ -3265,7 +3282,7 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: stalix_dev
+- repo: stalix
   srcname: lib/linux/util
   binname: lib/linux/util
   visiblename: lib/linux/util
@@ -3276,16 +3293,6 @@
     - anton@samokhvalov.xyz
   categories:
     - lib
-- repo: starkos
-  subrepo: main
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.42.4
-  origversion: 2.42.4-1
-  status: newest
-  summary: Utilities for handling file systems, consoles, partitions, and messages
-  maintainers:
-    - starkos@disroot.org
 - repo: starkos
   subrepo: multilib
   srcname: util-linux-32
@@ -3458,29 +3465,50 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
-- repo: amazon_2
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.30.2
-  origversion: 2.30.2-2.amzn2.0.7
+- repo: nix_stable_25_11
+  srcname: unixtools.getopt
+  visiblename: getopt-util-linux
+  version: 2.41.4
+  origversion: null
   status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  maintainers:
+    - fallback-mnt-nix@repology
   categories:
-    - System Environment/Base
+    - unixtools
   vulnerable: true
-- repo: amazon_2
+- repo: carbs
+  subrepo: core
   srcname: util-linux
   visiblename: util-linux
-  version: 2.30.2
-  origversion: 2.30.2-2.amzn2.0.9
+  version: 2.40.2
+  origversion: null
   status: outdated
-  summary: A collection of basic system utilities
+  summary: Linux utilities
+  maintainers:
+    - cem@carbslinux.org
   licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: conancenter
+  srcname: libmount
+  visiblename: libmount
+  version: "2.36"
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: util-linux
+  binname: flock
+  visiblename: flock
+  version: 2.38.1
+  origversion: 2.38.1-r1
+  status: outdated
+  summary: File locker from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
   vulnerable: true
 - repo: adelie_current
   subrepo: system
@@ -3692,19 +3720,16 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
+- repo: crux_37
+  subrepo: core
   srcname: util-linux
-  binname: flock
-  visiblename: flock
-  version: 2.38.1
-  origversion: 2.38.1-r1
+  visiblename: util-linux
+  version: 2.40.4
+  origversion: null
   status: outdated
-  summary: File locker from util-linux
+  summary: Miscellaneous system utilities
   maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
+    - core-ports@crux.nu
   vulnerable: true
 - repo: alpine_3_17
   subrepo: main
@@ -3891,20 +3916,6 @@
 - repo: alpine_3_17
   subrepo: main
   srcname: util-linux
-  binname: wipefs
-  visiblename: wipefs
-  version: 2.38.1
-  origversion: 2.38.1-r1
-  status: outdated
-  summary: Utility to wipe filesystems from device from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: util-linux
   binname: util-linux-doc
   visiblename: util-linux-doc
   version: 2.38.1
@@ -3971,20 +3982,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - Public-Domain
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: util-linux
-  binname: fstrim
-  visiblename: fstrim
-  version: 2.38.1
-  origversion: 2.38.1-r8
-  status: outdated
-  summary: File system trim from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
   vulnerable: true
 - repo: alpine_3_17
   subrepo: main
@@ -4140,18 +4137,19 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
+- repo: alpine_3_17
+  subrepo: main
   srcname: util-linux
-  visiblename: util-linux
-  version: 2.32.1
-  origversion: 2.32.1-42.el8_8
+  binname: wipefs
+  visiblename: wipefs
+  version: 2.38.1
+  origversion: 2.38.1-r1
   status: outdated
-  summary: A collection of basic system utilities
+  summary: Utility to wipe filesystems from device from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
   licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
+    - GPL-2.0-or-later
   vulnerable: true
 - repo: alpine_3_17
   subrepo: main
@@ -4250,6 +4248,20 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: util-linux
+  binname: fstrim
+  visiblename: fstrim
+  version: 2.38.1
+  origversion: 2.38.1-r8
+  status: outdated
+  summary: File system trim from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
   vulnerable: true
 - repo: alpine_3_18
   subrepo: main
@@ -5090,6 +5102,20 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_20
+  subrepo: main
+  srcname: util-linux
+  binname: mcookie
+  visiblename: mcookie
+  version: 2.40.1
+  origversion: 2.40.1-r1
+  status: outdated
+  summary: Generate random numbers for xauth from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
   vulnerable: true
 - repo: alpine_3_19
   subrepo: main
@@ -5217,6 +5243,21 @@
   licenses:
     - MIT
   vulnerable: true
+- repo: cygwin
+  srcname: util-linux
+  binname: liblastlog2
+  visiblename: liblastlog2
+  version: 2.40.2
+  origversion: 2.40.2-2
+  status: outdated
+  summary: Collection of basic system utilities
+  maintainers:
+    - mark.geisert@cygwin
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Libs
+  vulnerable: true
 - repo: alpine_3_20
   subrepo: main
   srcname: util-linux
@@ -5360,20 +5401,6 @@
 - repo: alpine_3_20
   subrepo: main
   srcname: util-linux
-  binname: mcookie
-  visiblename: mcookie
-  version: 2.40.1
-  origversion: 2.40.1-r1
-  status: outdated
-  summary: Generate random numbers for xauth from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-  vulnerable: true
-- repo: alpine_3_20
-  subrepo: main
-  srcname: util-linux
   binname: mount
   visiblename: mount
   version: 2.40.1
@@ -5482,6 +5509,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND LGPL-1.0-only AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: crux_37
+  subrepo: compat-32
+  srcname: util-linux-32
+  visiblename: util-linux-32
+  version: 2.40.4
+  origversion: null
+  status: outdated
+  summary: Miscellaneous system utilities
+  maintainers:
+    - compat-32-ports@crux.nu
   vulnerable: true
 - repo: alpine_3_20
   subrepo: main
@@ -5632,48 +5670,6 @@
   origversion: 2.40.1-r1
   status: outdated
   summary: Utility to wipe filesystems from device from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: agetty
-  visiblename: agetty
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: agetty program from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: blkid
-  visiblename: blkid
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: Block device identification tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-1.0-only
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: cfdisk
-  visiblename: cfdisk
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: Curses based partition table manipulator from util-linux
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -5762,6 +5758,21 @@
     - ncopa@alpinelinux.org
   licenses:
     - LGPL-2.1-or-later
+  vulnerable: true
+- repo: cygwin
+  srcname: util-linux
+  binname: liblastlog2-devel
+  visiblename: liblastlog2-devel
+  version: 2.40.2
+  origversion: 2.40.2-2
+  status: outdated
+  summary: Collection of basic system utilities
+  maintainers:
+    - mark.geisert@cygwin
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Libs
   vulnerable: true
 - repo: alpine_3_21
   subrepo: main
@@ -5874,6 +5885,18 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+  vulnerable: true
+- repo: amazon_2
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.30.2
+  origversion: 2.30.2-2.amzn2.0.13
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
   vulnerable: true
 - repo: alpine_3_21
   subrepo: main
@@ -6015,18 +6038,6 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-utmp
-  visiblename: util-linux-utmp
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: UTMP-related utilities
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
 - repo: alpine_3_21
   subrepo: main
   srcname: util-linux
@@ -6092,6 +6103,609 @@
   origversion: 2.40.4-r1
   status: outdated
   summary: 'Login utils from util-linux package: newgrp, last, lastb, login, lslogins, nologin, su, sulogin'
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later AND BSD-1-Clause
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-login-doc
+  visiblename: util-linux-login-doc
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Login utils from util-linux package (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: libmount
+  visiblename: libmount
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification library from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-misc
+  visiblename: util-linux-misc
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Misc binaries for util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-openrc
+  visiblename: util-linux-openrc
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Random collection of Linux utilities (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-static
+  visiblename: util-linux-static
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Random collection of Linux utilities (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: uuidgen
+  visiblename: uuidgen
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: UUID generator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-1.0-only
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: wipefs
+  visiblename: wipefs
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Utility to wipe filesystems from device from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: agetty
+  visiblename: agetty
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: agetty program from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: blkid
+  visiblename: blkid
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Block device identification tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-1.0-only
+  vulnerable: true
+- repo: alpine_3_21
+  subrepo: main
+  srcname: util-linux
+  binname: cfdisk
+  visiblename: cfdisk
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: Curses based partition table manipulator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: agetty
+  visiblename: agetty
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: agetty program from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: blkid
+  visiblename: blkid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-1.0-only
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: cfdisk
+  visiblename: cfdisk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Curses based partition table manipulator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: dmesg
+  visiblename: dmesg
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: dmesg tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: findmnt
+  visiblename: findmnt
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Find mount from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: flock
+  visiblename: flock
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: File locker from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: fstrim
+  visiblename: fstrim
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: File system trim from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: hexdump
+  visiblename: hexdump
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Hexdump from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-4-Clause-UC
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: libblkid
+  visiblename: libblkid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification library from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: libfdisk
+  visiblename: libfdisk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Partitioning library for fdisk-like programs
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: liblastlog2
+  visiblename: liblastlog2
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Y2038 safe version of lastlog
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: libsmartcols
+  visiblename: libsmartcols
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Formatting library for ls-like programs
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: libuuid
+  visiblename: libuuid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: DCE compatible Universally Unique Identifier library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: logger
+  visiblename: logger
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Logger from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-4-Clause-UC
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: losetup
+  visiblename: losetup
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Loop disk setup from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: lsblk
+  visiblename: lsblk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device list tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: lscpu
+  visiblename: lscpu
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: CPU architecture information helper
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: mcookie
+  visiblename: mcookie
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Generate random numbers for xauth from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: mount
+  visiblename: mount
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: mount tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: partx
+  visiblename: partx
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Tell the kernel about disk partition changes from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: py3-libmount
+  visiblename: py3-libmount
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: python3 bindings to libmount
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: runuser
+  visiblename: runuser
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Run a program with substitute user and group ID
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: setarch
+  visiblename: setarch
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: setarch tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: cygwin
+  srcname: util-linux
+  binname: libsmartcols-devel
+  visiblename: libsmartcols-devel
+  version: 2.40.2
+  origversion: 2.40.2-2
+  status: outdated
+  summary: Collection of basic system utilities
+  maintainers:
+    - mark.geisert@cygwin
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Libs
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: setpriv
+  visiblename: setpriv
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Run a program with different Linux privilege settings
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: sfdisk
+  visiblename: sfdisk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Partition table manipulator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-1.0-or-later
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: umount
+  visiblename: umount
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: umount tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux
+  visiblename: util-linux
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Random collection of Linux utilities
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-bash-completion
+  visiblename: util-linux-bash-completion
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Bash completions for util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: hexdump
+  visiblename: hexdump
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Hexdump from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-4-Clause-UC
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-dev
+  visiblename: util-linux-dev
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Random collection of Linux utilities (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-doc
+  visiblename: util-linux-doc
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Random collection of Linux utilities (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-login
+  visiblename: util-linux-login
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: 'Login utils from util-linux package: newgrp, last, lastb, lastlog2, login, lslogins, nologin, su, sulogin'
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -6112,13 +6726,13 @@
   categories:
     - System Environment/Base
   vulnerable: true
-- repo: alpine_3_21
+- repo: alpine_3_22
   subrepo: main
   srcname: util-linux
   binname: util-linux-login-doc
   visiblename: util-linux-login-doc
-  version: 2.40.4
-  origversion: 2.40.4-r1
+  version: 2.41.6
+  origversion: 2.41.6-r1
   status: outdated
   summary: Login utils from util-linux package (documentation)
   maintainers:
@@ -6126,13 +6740,13 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_21
+- repo: alpine_3_22
   subrepo: main
   srcname: util-linux
   binname: util-linux-misc
   visiblename: util-linux-misc
-  version: 2.40.4
-  origversion: 2.40.4-r1
+  version: 2.41.6
+  origversion: 2.41.6-r1
   status: outdated
   summary: Misc binaries for util-linux
   maintainers:
@@ -6140,287 +6754,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-openrc
-  visiblename: util-linux-openrc
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: Random collection of Linux utilities (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-static
-  visiblename: util-linux-static
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: Random collection of Linux utilities (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: uuidgen
-  visiblename: uuidgen
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: UUID generator from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-1.0-only
-  vulnerable: true
-- repo: alpine_3_21
-  subrepo: main
-  srcname: util-linux
-  binname: wipefs
-  visiblename: wipefs
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: Utility to wipe filesystems from device from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: agetty
-  visiblename: agetty
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: agetty program from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: blkid
-  visiblename: blkid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-1.0-only
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: cfdisk
-  visiblename: cfdisk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Curses based partition table manipulator from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: dmesg
-  visiblename: dmesg
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: dmesg tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: findmnt
-  visiblename: findmnt
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Find mount from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: flock
-  visiblename: flock
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: File locker from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: fstrim
-  visiblename: fstrim
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: File system trim from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: hexdump
-  visiblename: hexdump
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Hexdump from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-4-Clause-UC
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: libblkid
-  visiblename: libblkid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification library from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: libfdisk
-  visiblename: libfdisk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Partitioning library for fdisk-like programs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: liblastlog2
-  visiblename: liblastlog2
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Y2038 safe version of lastlog
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: libmount
-  visiblename: libmount
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification library from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: libsmartcols
-  visiblename: libsmartcols
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Formatting library for ls-like programs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: libuuid
-  visiblename: libuuid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: DCE compatible Universally Unique Identifier library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: logger
-  visiblename: logger
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Logger from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-4-Clause-UC
-  vulnerable: true
-- repo: alpine_3_22
-  subrepo: main
-  srcname: util-linux
-  binname: losetup
-  visiblename: losetup
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Loop disk setup from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: lsblk
@@ -6437,6 +6771,272 @@
 - repo: alpine_3_22
   subrepo: main
   srcname: util-linux
+  binname: util-linux-openrc
+  visiblename: util-linux-openrc
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Random collection of Linux utilities (OpenRC init scripts)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-static
+  visiblename: util-linux-static
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Random collection of Linux utilities (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: uuidgen
+  visiblename: uuidgen
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: UUID generator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-1.0-only
+  vulnerable: true
+- repo: alpine_3_22
+  subrepo: main
+  srcname: util-linux
+  binname: wipefs
+  visiblename: wipefs
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Utility to wipe filesystems from device from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: agetty
+  visiblename: agetty
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: agetty program from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - Public-Domain
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: blkid
+  visiblename: blkid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-1.0-only
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: cfdisk
+  visiblename: cfdisk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Curses based partition table manipulator from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: dmesg
+  visiblename: dmesg
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: dmesg tool from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: findmnt
+  visiblename: findmnt
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Find mount from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: flock
+  visiblename: flock
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: File locker from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: fstrim
+  visiblename: fstrim
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: File system trim from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: libblkid
+  visiblename: libblkid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification library from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: libfdisk
+  visiblename: libfdisk
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Partitioning library for fdisk-like programs
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: liblastlog2
+  visiblename: liblastlog2
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Y2038 safe version of lastlog
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-2-Clause
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: libmount
+  visiblename: libmount
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Block device identification library from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: libsmartcols
+  visiblename: libsmartcols
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Formatting library for ls-like programs
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - LGPL-2.1-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: libuuid
+  visiblename: libuuid
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: DCE compatible Universally Unique Identifier library
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: logger
+  visiblename: logger
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Logger from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-4-Clause-UC
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
+  binname: losetup
+  visiblename: losetup
+  version: 2.41.6
+  origversion: 2.41.6-r1
+  status: outdated
+  summary: Loop disk setup from util-linux
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: main
+  srcname: util-linux
   binname: lscpu
   visiblename: lscpu
   version: 2.41.6
@@ -6448,7 +7048,7 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: mcookie
@@ -6462,7 +7062,7 @@
   licenses:
     - Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: mount
@@ -6476,7 +7076,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: partx
@@ -6490,7 +7090,7 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: py3-libmount
@@ -6504,7 +7104,7 @@
   licenses:
     - LGPL-2.1-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: runuser
@@ -6518,7 +7118,7 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: setarch
@@ -6532,7 +7132,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: setpriv
@@ -6546,7 +7146,7 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: sfdisk
@@ -6560,7 +7160,7 @@
   licenses:
     - GPL-1.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: umount
@@ -6574,7 +7174,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux
@@ -6588,7 +7188,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-bash-completion
@@ -6602,19 +7202,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: amazon_2
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.30.2
-  origversion: 2.30.2-2.amzn2.0.14
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
-  vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-dev
@@ -6628,7 +7216,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-doc
@@ -6654,7 +7242,7 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-login
@@ -6668,7 +7256,7 @@
   licenses:
     - GPL-2.0-or-later AND BSD-1-Clause
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-login-doc
@@ -6682,7 +7270,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-misc
@@ -6696,7 +7284,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-openrc
@@ -6710,7 +7298,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: util-linux-static
@@ -6724,7 +7312,7 @@
   licenses:
     - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: uuidgen
@@ -6738,7 +7326,7 @@
   licenses:
     - GPL-1.0-only
   vulnerable: true
-- repo: alpine_3_22
+- repo: alpine_3_23
   subrepo: main
   srcname: util-linux
   binname: wipefs
@@ -6752,552 +7340,17 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
+- repo: amazon_2
   srcname: util-linux
-  binname: agetty
-  visiblename: agetty
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: agetty program from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: blkid
-  visiblename: blkid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-1.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: cfdisk
-  visiblename: cfdisk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Curses based partition table manipulator from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: dmesg
-  visiblename: dmesg
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: dmesg tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: findmnt
-  visiblename: findmnt
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Find mount from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: flock
-  visiblename: flock
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: File locker from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: fstrim
-  visiblename: fstrim
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: File system trim from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: hexdump
-  visiblename: hexdump
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Hexdump from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-4-Clause-UC
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: libblkid
-  visiblename: libblkid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification library from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: libfdisk
-  visiblename: libfdisk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Partitioning library for fdisk-like programs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: liblastlog2
-  visiblename: liblastlog2
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Y2038 safe version of lastlog
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-2-Clause
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: libmount
-  visiblename: libmount
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device identification library from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: libsmartcols
-  visiblename: libsmartcols
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Formatting library for ls-like programs
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: libuuid
-  visiblename: libuuid
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: DCE compatible Universally Unique Identifier library
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: logger
-  visiblename: logger
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Logger from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-4-Clause-UC
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: losetup
-  visiblename: losetup
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Loop disk setup from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: lsblk
-  visiblename: lsblk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Block device list tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: lscpu
-  visiblename: lscpu
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: CPU architecture information helper
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: mcookie
-  visiblename: mcookie
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Generate random numbers for xauth from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: mount
-  visiblename: mount
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: mount tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: partx
-  visiblename: partx
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Tell the kernel about disk partition changes from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: py3-libmount
-  visiblename: py3-libmount
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: python3 bindings to libmount
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - LGPL-2.1-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: runuser
-  visiblename: runuser
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Run a program with substitute user and group ID
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: setarch
-  visiblename: setarch
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: setarch tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: setpriv
-  visiblename: setpriv
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Run a program with different Linux privilege settings
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: sfdisk
-  visiblename: sfdisk
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Partition table manipulator from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-1.0-or-later
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: umount
-  visiblename: umount
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: umount tool from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux
   visiblename: util-linux
-  version: 2.41.6
-  origversion: 2.41.6-r1
+  version: 2.30.2
+  origversion: 2.30.2-2.amzn2.0.12
   status: outdated
-  summary: Random collection of Linux utilities
-  maintainers:
-    - ncopa@alpinelinux.org
+  summary: A collection of basic system utilities
   licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-bash-completion
-  visiblename: util-linux-bash-completion
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Bash completions for util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-dev
-  visiblename: util-linux-dev
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Random collection of Linux utilities (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-doc
-  visiblename: util-linux-doc
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Random collection of Linux utilities (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-login
-  visiblename: util-linux-login
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: 'Login utils from util-linux package: newgrp, last, lastb, lastlog2, login, lslogins, nologin, su, sulogin'
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later AND BSD-1-Clause
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-login-doc
-  visiblename: util-linux-login-doc
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Login utils from util-linux package (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-misc
-  visiblename: util-linux-misc
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Misc binaries for util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-openrc
-  visiblename: util-linux-openrc
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Random collection of Linux utilities (OpenRC init scripts)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-static
-  visiblename: util-linux-static
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Random collection of Linux utilities (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later AND GPL-2.0-or-later AND GPL-2.0-only AND GPL-1.0-only AND LGPL-2.1-or-later AND BSD-1-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND MIT AND Public-Domain
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: uuidgen
-  visiblename: uuidgen
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: UUID generator from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-1.0-only
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: main
-  srcname: util-linux
-  binname: wipefs
-  visiblename: wipefs
-  version: 2.41.6
-  origversion: 2.41.6-r1
-  status: outdated
-  summary: Utility to wipe filesystems from device from util-linux
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: cygwin
-  srcname: util-linux
-  binname: liblastlog2
-  visiblename: liblastlog2
-  version: 2.40.2
-  origversion: 2.40.2-2
-  status: outdated
-  summary: Collection of basic system utilities
-  maintainers:
-    - mark.geisert@cygwin
-  licenses:
-    - GPL-2.0-only
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
   categories:
-    - Libs
+    - System Environment/Base
   vulnerable: true
 - repo: amazon_2
   srcname: util-linux
@@ -7340,6 +7393,30 @@
   visiblename: util-linux
   version: 2.30.2
   origversion: 2.30.2-2.amzn2.0.5
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: amazon_2
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.30.2
+  origversion: 2.30.2-2.amzn2.0.7
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: amazon_2
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.30.2
+  origversion: 2.30.2-2.amzn2.0.9
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -7593,19 +7670,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.30.2
-  origversion: 2.30.2-2.amzn2.0.12
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
-  vulnerable: true
-- repo: amazon_2
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.30.2
-  origversion: 2.30.2-2.amzn2.0.13
+  origversion: 2.30.2-2.amzn2.0.14
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -7832,16 +7897,15 @@
   maintainers:
     - zeha@debian.org
   vulnerable: true
-- repo: carbs
-  subrepo: core
+- repo: chimera
+  subrepo: main
   srcname: util-linux
-  visiblename: util-linux
-  version: 2.40.2
-  origversion: null
+  binname: util-linux-fdisk-man
+  visiblename: util-linux-fdisk-man
+  version: 2.40.4
+  origversion: 2.40.4-r1
   status: outdated
-  summary: Linux utilities
-  maintainers:
-    - cem@carbslinux.org
+  summary: The fdisk(8) program and related utilities (manual pages)
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
@@ -7906,7 +7970,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.32.1
-  origversion: 2.32.1-24.el8
+  origversion: 2.32.1-35.el8
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -8340,6 +8404,30 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
+- repo: chimera
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-fstrim
+  visiblename: util-linux-fstrim
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: SSD trimming utilities
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: chimera
+  subrepo: main
+  srcname: util-linux
+  binname: util-linux-fstrim-bashcomp
+  visiblename: util-linux-fstrim-bashcomp
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: SSD trimming utilities (bash completions)
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: util-linux
@@ -8507,7 +8595,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.32.1
-  origversion: 2.32.1-27.el8
+  origversion: 2.32.1-39.el8_7
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -8608,42 +8696,6 @@
   origversion: 2.40.4-r1
   status: outdated
   summary: Library for fdisk(8) (libraries)
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-fdisk-man
-  visiblename: util-linux-fdisk-man
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: The fdisk(8) program and related utilities (manual pages)
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-fstrim
-  visiblename: util-linux-fstrim
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: SSD trimming utilities
-  licenses:
-    - GPL-2.0-or-later
-  vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: util-linux
-  binname: util-linux-fstrim-bashcomp
-  visiblename: util-linux-fstrim-bashcomp
-  version: 2.40.4
-  origversion: 2.40.4-r1
-  status: outdated
-  summary: SSD trimming utilities (bash completions)
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
@@ -9058,6 +9110,18 @@
 - repo: chimera
   subrepo: main
   srcname: util-linux
+  binname: util-linux-utmp
+  visiblename: util-linux-utmp
+  version: 2.40.4
+  origversion: 2.40.4-r1
+  status: outdated
+  summary: UTMP-related utilities
+  licenses:
+    - GPL-2.0-or-later
+  vulnerable: true
+- repo: chimera
+  subrepo: main
+  srcname: util-linux
   binname: util-linux-utmp-bashcomp
   visiblename: util-linux-utmp-bashcomp
   version: 2.40.4
@@ -9072,7 +9136,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.32.1
-  origversion: 2.32.1-28.el8
+  origversion: 2.32.1-42.el8_8
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -9212,19 +9276,6 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.32.1
-  origversion: 2.32.1-35.el8
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
-  vulnerable: true
 - repo: chimera
   subrepo: main
   srcname: util-linux
@@ -9266,45 +9317,9 @@
 - repo: conancenter
   srcname: libmount
   visiblename: libmount
-  version: "2.39"
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: libmount
-  visiblename: libmount
   version: 2.36.2
   origversion: null
   status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: libmount
-  visiblename: libmount
-  version: "2.36"
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: crux_37
-  subrepo: core
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.40.4
-  origversion: null
-  status: outdated
-  summary: Miscellaneous system utilities
-  maintainers:
-    - core-ports@crux.nu
-  vulnerable: true
-- repo: crux_37
-  subrepo: compat-32
-  srcname: util-linux-32
-  visiblename: util-linux-32
-  version: 2.40.4
-  origversion: null
-  status: outdated
-  summary: Miscellaneous system utilities
-  maintainers:
-    - compat-32-ports@crux.nu
   vulnerable: true
 - repo: cygwin
   srcname: util-linux
@@ -9355,49 +9370,6 @@
   srcname: util-linux
   binname: libfdisk1
   visiblename: libfdisk1
-  version: 2.40.2
-  origversion: 2.40.2-2
-  status: outdated
-  summary: Collection of basic system utilities
-  maintainers:
-    - mark.geisert@cygwin
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Libs
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.32.1
-  origversion: 2.32.1-39.el8_7
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
-  vulnerable: true
-- repo: cygwin
-  srcname: util-linux
-  binname: liblastlog2-devel
-  visiblename: liblastlog2-devel
-  version: 2.40.2
-  origversion: 2.40.2-2
-  status: outdated
-  summary: Collection of basic system utilities
-  maintainers:
-    - mark.geisert@cygwin
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Libs
-  vulnerable: true
-- repo: cygwin
-  srcname: util-linux
-  binname: libsmartcols-devel
-  visiblename: libsmartcols-devel
   version: 2.40.2
   origversion: 2.40.2-2
   status: outdated
@@ -9500,7 +9472,7 @@
     - System
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye-security/main
+  subrepo: bullseye/main
   srcname: util-linux
   binnames:
     - util-linux
@@ -9541,7 +9513,7 @@
     - utils
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye/main
+  subrepo: bullseye-security/main
   srcname: util-linux
   binnames:
     - util-linux
@@ -9711,15 +9683,18 @@
   categories:
     - utils
   vulnerable: true
-- repo: gobolinux
-  srcname: Util-Linux-NG
-  visiblename: Util-Linux-NG
-  version: "2.29"
+- repo: freebsd
+  srcname: sysutils/flock
+  binname: flock
+  visiblename: sysutils/flock
+  version: 2.41.6
   origversion: null
-  status: legacy
-  summary: Miscellaneous system utilities. Util-linux-ng is a fork of the original util-linux project
-  licenses:
-    - Open source, see README.licensing for details
+  status: outdated
+  summary: Manage locks from shell scripts
+  maintainers:
+    - garga@freebsd.org
+  categories:
+    - sysutils
   vulnerable: true
 - repo: debian_13
   subrepo: trixie-security/main
@@ -9818,7 +9793,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.32.1
-  origversion: 2.32.1-22.el8
+  origversion: 2.32.1-28.el8
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -10056,6 +10031,58 @@
     - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
   categories:
     - System Environment/Base
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.32.1
+  origversion: 2.32.1-22.el8
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.32.1
+  origversion: 2.32.1-24.el8
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.32.1
+  origversion: 2.32.1-27.el8
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
+- repo: freebsd
+  srcname: sysutils/util-linux
+  binname: util-linux
+  visiblename: sysutils/util-linux
+  version: 2.41.2
+  origversion: null
+  status: legacy
+  summary: Random collection of Linux utilities
+  maintainers:
+    - yuri@freebsd.org
+  categories:
+    - sysutils
   vulnerable: true
 - repo: eurolinux_9
   subrepo: baseos
@@ -10337,7 +10364,7 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_40
-  subrepo: updates
+  subrepo: release
   srcname: util-linux
   binnames:
     - util-linux
@@ -10358,12 +10385,12 @@
     - util-linux-debuginfo
     - util-linux-debugsource
   visiblename: util-linux
-  version: 2.40.2
-  origversion: 2.40.2-1.fc40
-  status: outdated
+  version: 2.40-rc1
+  origversion: 2.40-0.9.rc1.fc40
+  status: legacy
   summary: Collection of basic system utilities
   licenses:
-    - GPL-1.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND LicenseRef-Fedora-Public-Domain
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
   categories:
     - Unspecified
   vulnerable: true
@@ -10394,8 +10421,21 @@
   categories:
     - System/Base
   vulnerable: true
+- repo: openwrt_23_05_x86_64
+  subrepo: base
+  srcname: feeds/base/package/utils/util-linux
+  binname: ipcs
+  visiblename: ipcs
+  version: "2.39"
+  origversion: 2.39-2
+  status: outdated
+  maintainers:
+    - fallback-mnt-openwrt@repology
+  categories:
+    - utils
+  vulnerable: true
 - repo: fedora_40
-  subrepo: release
+  subrepo: updates
   srcname: util-linux
   binnames:
     - util-linux
@@ -10416,12 +10456,12 @@
     - util-linux-debuginfo
     - util-linux-debugsource
   visiblename: util-linux
-  version: 2.40-rc1
-  origversion: 2.40-0.9.rc1.fc40
-  status: legacy
+  version: 2.40.2
+  origversion: 2.40.2-1.fc40
+  status: outdated
   summary: Collection of basic system utilities
   licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+    - GPL-1.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
   vulnerable: true
@@ -10453,15 +10493,6 @@
     - GPL-1.0-or-later AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND LicenseRef-Fedora-Public-Domain
   categories:
     - Unspecified
-  vulnerable: true
-- repo: haikuports_master
-  srcname: sys-apps/util-linux
-  visiblename: sys-apps/util-linux
-  version: "2.34"
-  origversion: null
-  status: outdated
-  categories:
-    - sys-apps
   vulnerable: true
 - repo: fedora_41
   subrepo: updates
@@ -10680,50 +10711,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: libuuid
-  visiblename: util-linux-minimal
-  version: 2.39.4
-  origversion: null
-  status: outdated
-  summary: Set of system utilities for Linux
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-  vulnerable: true
-- repo: freebsd
-  srcname: sysutils/util-linux
-  binname: util-linux
-  visiblename: sysutils/util-linux
-  version: 2.41.2
-  origversion: null
-  status: legacy
-  summary: Random collection of Linux utilities
-  maintainers:
-    - yuri@freebsd.org
-  categories:
-    - sysutils
-  vulnerable: true
-- repo: freebsd
-  srcname: sysutils/flock
-  binname: flock
-  visiblename: sysutils/flock
-  version: 2.41.6
-  origversion: null
-  status: outdated
-  summary: Manage locks from shell scripts
-  maintainers:
-    - garga@freebsd.org
-  categories:
-    - sysutils
-  vulnerable: true
 - repo: gentoo
   srcname: sys-apps/util-linux
   visiblename: sys-apps/util-linux
@@ -10764,6 +10751,25 @@
   summary: Miscellaneous system utilities
   licenses:
     - Open source, see README.licensing for details
+  vulnerable: true
+- repo: gobolinux
+  srcname: Util-Linux-NG
+  visiblename: Util-Linux-NG
+  version: "2.29"
+  origversion: null
+  status: legacy
+  summary: Miscellaneous system utilities. Util-linux-ng is a fork of the original util-linux project
+  licenses:
+    - Open source, see README.licensing for details
+  vulnerable: true
+- repo: haikuports_master
+  srcname: sys-apps/util-linux
+  visiblename: sys-apps/util-linux
+  version: "2.34"
+  origversion: null
+  status: outdated
+  categories:
+    - sys-apps
   vulnerable: true
 - repo: ibmi
   srcname: util-linux
@@ -10915,17 +10921,6 @@
   categories:
     - System/Base
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: unixtools.getopt
-  visiblename: getopt-util-linux
-  version: 2.39.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-  vulnerable: true
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: util-linux
@@ -11010,16 +11005,15 @@
     - GPL-2.0-or-later
   vulnerable: true
 - repo: nix_stable_24_11
-  srcname: libsmartcols
-  visiblename: libsmartcols
-  version: 2.39.3
+  srcname: unixtools.getopt
+  visiblename: getopt-util-linux
+  version: 2.39.4
   origversion: null
   status: outdated
-  summary: smart column output alignment library
   maintainers:
-    - nix@marc-seeger.com
-  licenses:
-    - GPL-2.0-or-later
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: util-linux
@@ -11039,44 +11033,15 @@
     - BSD-4-Clause-UC
     - Public Domain
   vulnerable: true
-- repo: nix_stable_25_05
-  srcname: unixtools.getopt
-  visiblename: getopt-util-linux
-  version: 2.41.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.41.1
-  origversion: null
-  status: outdated
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-  licenses:
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-  vulnerable: true
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: libuuid
   visiblename: util-linux-minimal
-  version: 2.41.1
+  version: 2.39.4
   origversion: null
   status: outdated
   summary: Set of system utilities for Linux
   maintainers:
-    - me+nixpkgs@numin.it
+    - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-only
     - GPL-2.0-or-later
@@ -11085,6 +11050,18 @@
     - BSD-3-Clause
     - BSD-4-Clause-UC
     - Public Domain
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: libsmartcols
+  visiblename: libsmartcols
+  version: 2.39.3
+  origversion: null
+  status: outdated
+  summary: smart column output alignment library
+  maintainers:
+    - nix@marc-seeger.com
+  licenses:
+    - GPL-2.0-or-later
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: libsmartcols
@@ -11098,6 +11075,71 @@
   licenses:
     - GPL-2.0-or-later
   vulnerable: true
+- repo: nix_stable_25_05
+  srcname: libuuid
+  visiblename: util-linux-minimal
+  version: 2.41.1
+  origversion: null
+  status: outdated
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: unixtools.getopt
+  visiblename: getopt-util-linux
+  version: 2.41.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-nix@repology
+  categories:
+    - unixtools
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.41.1
+  origversion: null
+  status: outdated
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.41.4
+  origversion: null
+  status: outdated
+  summary: Set of system utilities for Linux
+  maintainers:
+    - me+nixpkgs@numin.it
+  licenses:
+    - GPL-2.0-only
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - BSD-3-Clause
+    - BSD-4-Clause-UC
+    - Public Domain
+  vulnerable: true
 - repo: nix_stable_25_11
   srcname: libuuid
   visiblename: util-linux-minimal
@@ -11115,48 +11157,6 @@
     - BSD-3-Clause
     - BSD-4-Clause-UC
     - Public Domain
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: unixtools.getopt
-  visiblename: getopt-util-linux
-  version: 2.41.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - fallback-mnt-nix@repology
-  categories:
-    - unixtools
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.41.4
-  origversion: null
-  status: outdated
-  summary: Set of system utilities for Linux
-  maintainers:
-    - me+nixpkgs@numin.it
-  licenses:
-    - GPL-2.0-only
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - BSD-3-Clause
-    - BSD-4-Clause-UC
-    - Public Domain
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.39.3
-  origversion: 2.39.3-150600.4.18.1
-  status: outdated
-  summary: A collection of basic system utilities (core part)
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
   vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: util-linux
@@ -11207,6 +11207,19 @@
     - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
   categories:
     - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.37.4
+  origversion: 2.37.4-150500.9.23.1
+  status: legacy
+  summary: A collection of basic system utilities
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
   vulnerable: true
 - repo: openeuler_22_03_lts_sp3
   srcname: util-linux
@@ -11286,6 +11299,19 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.39.3
+  origversion: 2.39.3-150600.4.6.2
+  status: outdated
+  summary: A collection of basic system utilities (core part)
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: util-linux
   binnames:
@@ -11337,19 +11363,6 @@
     - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
   categories:
     - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.39.3
-  origversion: 2.39.3-150600.4.21.1
-  status: outdated
-  summary: A collection of basic system utilities (core part)
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
   vulnerable: true
 - repo: openeuler_25_03
   srcname: util-linux
@@ -11459,6 +11472,19 @@
   categories:
     - base
   vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
+  version: 2.37.4
+  origversion: 2.37.4-150500.9.3.1
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile/main
   srcname: util-linux
@@ -11500,19 +11526,6 @@
     - zeha@debian.org
   categories:
     - base
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
-  version: 2.37.4
-  origversion: 2.37.4-150500.7.2
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
   vulnerable: true
 - repo: openkylin_2_0
   subrepo: nile-proposed/main
@@ -11644,6 +11657,32 @@
   categories:
     - base
   vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.39.3
+  origversion: 2.39.3-150600.4.9.4
+  status: outdated
+  summary: A collection of basic system utilities (core part)
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
+  version: 2.39.3
+  origversion: 2.39.3-150600.4.12.2
+  status: outdated
+  summary: A collection of basic system utilities (systemd dependent part)
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: util-linux
@@ -11688,14 +11727,14 @@
   categories:
     - System/Base
   vulnerable: true
-- repo: opensuse_leap_15_6
+- repo: opensuse_leap_15_5
   subrepo: updates/sle
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.39.3
-  origversion: 2.39.3-150600.4.3.1
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
+  version: 2.37.4
+  origversion: 2.37.4-150500.9.6.1
   status: outdated
-  summary: A collection of basic system utilities (core part)
+  summary: A collection of basic system utilities
   licenses:
     - GPL-2.0-or-later
   categories:
@@ -11703,12 +11742,25 @@
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
-  srcname: util-linux
-  visiblename: util-linux
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
   version: 2.39.3
-  origversion: 2.39.3-150600.4.6.2
+  origversion: 2.39.3-150600.4.15.1
   status: outdated
-  summary: A collection of basic system utilities (core part)
+  summary: A collection of basic system utilities (systemd dependent part)
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
+  version: 2.39.3
+  origversion: 2.39.3-150600.4.18.1
+  status: outdated
+  summary: A collection of basic system utilities (systemd dependent part)
   licenses:
     - GPL-2.0-or-later
   categories:
@@ -11728,6 +11780,19 @@
     - System/Base
   vulnerable: true
 - repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: util-linux-systemd
+  visiblename: util-linux-systemd
+  version: 2.37.4
+  origversion: 2.37.4-150500.7.2
+  status: outdated
+  summary: A collection of basic system utilities
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - System/Base
+  vulnerable: true
+- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: util-linux
   visiblename: util-linux
@@ -11824,32 +11889,6 @@
   visiblename: util-linux-systemd
   version: 2.37.4
   origversion: 2.37.4-150500.9.17.2
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
-  version: 2.37.4
-  origversion: 2.37.4-150500.9.3.1
-  status: outdated
-  summary: A collection of basic system utilities
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
-  version: 2.37.4
-  origversion: 2.37.4-150500.9.6.1
   status: outdated
   summary: A collection of basic system utilities
   licenses:
@@ -11863,19 +11902,6 @@
   visiblename: util-linux
   version: 2.37.4
   origversion: 2.37.4-150500.9.20.1
-  status: legacy
-  summary: A collection of basic system utilities
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.37.4
-  origversion: 2.37.4-150500.9.23.1
   status: legacy
   summary: A collection of basic system utilities
   licenses:
@@ -11927,7 +11953,7 @@
   srcname: util-linux
   visiblename: util-linux
   version: 2.39.3
-  origversion: 2.39.3-150600.4.9.4
+  origversion: 2.39.3-150600.4.18.1
   status: outdated
   summary: A collection of basic system utilities (core part)
   licenses:
@@ -11937,12 +11963,12 @@
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
+  srcname: util-linux
+  visiblename: util-linux
   version: 2.39.3
-  origversion: 2.39.3-150600.4.12.2
+  origversion: 2.39.3-150600.4.21.1
   status: outdated
-  summary: A collection of basic system utilities (systemd dependent part)
+  summary: A collection of basic system utilities (core part)
   licenses:
     - GPL-2.0-or-later
   categories:
@@ -11950,25 +11976,12 @@
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
+  srcname: util-linux
+  visiblename: util-linux
   version: 2.39.3
-  origversion: 2.39.3-150600.4.15.1
+  origversion: 2.39.3-150600.4.3.1
   status: outdated
-  summary: A collection of basic system utilities (systemd dependent part)
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - System/Base
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: util-linux-systemd
-  visiblename: util-linux-systemd
-  version: 2.39.3
-  origversion: 2.39.3-150600.4.18.1
-  status: outdated
-  summary: A collection of basic system utilities (systemd dependent part)
+  summary: A collection of basic system utilities (core part)
   licenses:
     - GPL-2.0-or-later
   categories:
@@ -12250,19 +12263,6 @@
 - repo: openwrt_23_05_x86_64
   subrepo: base
   srcname: feeds/base/package/utils/util-linux
-  binname: ipcs
-  visiblename: ipcs
-  version: "2.39"
-  origversion: 2.39-2
-  status: outdated
-  maintainers:
-    - fallback-mnt-openwrt@repology
-  categories:
-    - utils
-  vulnerable: true
-- repo: openwrt_23_05_x86_64
-  subrepo: base
-  srcname: feeds/base/package/utils/util-linux
   binname: libblkid1
   visiblename: libblkid1
   version: "2.39"
@@ -13301,7 +13301,7 @@
     - utils
   vulnerable: true
 - repo: pardus_21
-  subrepo: main
+  subrepo: updates/main
   srcname: util-linux
   binnames:
     - util-linux
@@ -13341,8 +13341,23 @@
   categories:
     - utils
   vulnerable: true
+- repo: rocky_8
+  subrepo: BaseOS
+  srcname: util-linux
+  visiblename: util-linux
+  version: 2.32.1
+  origversion: 2.32.1-46.el8
+  status: outdated
+  summary: A collection of basic system utilities
+  maintainers:
+    - infrastructure@rockylinux.org
+  licenses:
+    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
+  categories:
+    - System Environment/Base
+  vulnerable: true
 - repo: pardus_21
-  subrepo: updates/main
+  subrepo: main
   srcname: util-linux
   binnames:
     - util-linux
@@ -13564,7 +13579,7 @@
     - utils
   vulnerable: true
 - repo: pureos_byzantium
-  subrepo: byzantium-updates/main
+  subrepo: byzantium/main
   srcname: util-linux
   binnames:
     - bsdextrautils
@@ -13604,7 +13619,7 @@
     - utils
   vulnerable: true
 - repo: pureos_byzantium
-  subrepo: byzantium/main
+  subrepo: byzantium-updates/main
   srcname: util-linux
   binnames:
     - bsdextrautils
@@ -13776,21 +13791,6 @@
     - zeha@debian.org
   categories:
     - utils
-  vulnerable: true
-- repo: rocky_8
-  subrepo: BaseOS
-  srcname: util-linux
-  visiblename: util-linux
-  version: 2.32.1
-  origversion: 2.32.1-46.el8
-  status: outdated
-  summary: A collection of basic system utilities
-  maintainers:
-    - infrastructure@rockylinux.org
-  licenses:
-    - GPLv2 and GPLv2+ and LGPLv2+ and BSD with advertising and Public Domain
-  categories:
-    - System Environment/Base
   vulnerable: true
 - repo: rocky_8
   subrepo: BaseOS
@@ -13969,38 +13969,6 @@
     - System Environment/Base
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: util-linux
-  binnames:
-    - util-linux
-    - util-linux-locales
-    - mount
-    - bsdutils
-    - fdisk-udeb
-    - cfdisk-udeb
-    - libblkid1
-    - libblkid1-udeb
-    - libblkid-dev
-    - libmount1
-    - libmount1-udeb
-    - libmount-dev
-    - libuuid1
-    - uuid-runtime
-    - libuuid1-udeb
-    - uuid-dev
-    - util-linux-udeb
-  visiblename: util-linux
-  version: 2.20.1
-  origversion: 2.20.1-5.1ubuntu20.9
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - adconrad@0c3.net
-    - scott@ubuntu.com
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: util-linux
   binnames:
@@ -14024,6 +13992,38 @@
   visiblename: util-linux
   version: 2.20.1
   origversion: 2.20.1-5.1ubuntu20
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - adconrad@0c3.net
+    - scott@ubuntu.com
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
+  srcname: util-linux
+  binnames:
+    - util-linux
+    - util-linux-locales
+    - mount
+    - bsdutils
+    - fdisk-udeb
+    - cfdisk-udeb
+    - libblkid1
+    - libblkid1-udeb
+    - libblkid-dev
+    - libmount1
+    - libmount1-udeb
+    - libmount-dev
+    - libuuid1
+    - uuid-runtime
+    - libuuid1-udeb
+    - uuid-dev
+    - util-linux-udeb
+  visiblename: util-linux
+  version: 2.20.1
+  origversion: 2.20.1-5.1ubuntu20.9
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -14261,47 +14261,6 @@
     - utils
   vulnerable: true
 - repo: ubuntu_22_04
-  subrepo: jammy/main
-  srcname: util-linux
-  binnames:
-    - util-linux
-    - util-linux-locales
-    - mount
-    - bsdutils
-    - bsdextrautils
-    - fdisk
-    - fdisk-udeb
-    - libblkid1
-    - libblkid1-udeb
-    - libblkid-dev
-    - libfdisk1
-    - libfdisk1-udeb
-    - libfdisk-dev
-    - libmount1
-    - libmount1-udeb
-    - libmount-dev
-    - libsmartcols1
-    - libsmartcols1-udeb
-    - libsmartcols-dev
-    - libuuid1
-    - uuid-runtime
-    - libuuid1-udeb
-    - uuid-dev
-    - util-linux-udeb
-    - rfkill
-    - eject
-    - eject-udeb
-  visiblename: util-linux
-  version: 2.37.2
-  origversion: 2.37.2-4ubuntu3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - zeha@debian.org
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_22_04
   subrepo: jammy-updates/main
   srcname: util-linux
   binnames:
@@ -14342,8 +14301,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_24_04
-  subrepo: noble/main
+- repo: ubuntu_22_04
+  subrepo: jammy/main
   srcname: util-linux
   binnames:
     - util-linux
@@ -14373,10 +14332,9 @@
     - rfkill
     - eject
     - eject-udeb
-    - util-linux-extra
   visiblename: util-linux
-  version: 2.39.3
-  origversion: 2.39.3-9ubuntu6
+  version: 2.37.2
+  origversion: 2.37.2-4ubuntu3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -14419,6 +14377,48 @@
   visiblename: util-linux
   version: 2.39.3
   origversion: 2.39.3-9ubuntu6.6
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - zeha@debian.org
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_24_04
+  subrepo: noble/main
+  srcname: util-linux
+  binnames:
+    - util-linux
+    - util-linux-locales
+    - mount
+    - bsdutils
+    - bsdextrautils
+    - fdisk
+    - fdisk-udeb
+    - libblkid1
+    - libblkid1-udeb
+    - libblkid-dev
+    - libfdisk1
+    - libfdisk1-udeb
+    - libfdisk-dev
+    - libmount1
+    - libmount1-udeb
+    - libmount-dev
+    - libsmartcols1
+    - libsmartcols1-udeb
+    - libsmartcols-dev
+    - libuuid1
+    - uuid-runtime
+    - libuuid1-udeb
+    - uuid-dev
+    - util-linux-udeb
+    - rfkill
+    - eject
+    - eject-udeb
+    - util-linux-extra
+  visiblename: util-linux
+  version: 2.39.3
+  origversion: 2.39.3-9ubuntu6
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -14521,52 +14521,6 @@
     - utils
   vulnerable: true
 - repo: ubuntu_25_10
-  subrepo: questing/main
-  srcname: util-linux
-  binnames:
-    - util-linux
-    - util-linux-locales
-    - mount
-    - bsdutils
-    - bsdextrautils
-    - fdisk
-    - fdisk-udeb
-    - libblkid1
-    - libblkid1-udeb
-    - libblkid-dev
-    - libfdisk1
-    - libfdisk1-udeb
-    - libfdisk-dev
-    - libmount1
-    - libmount1-udeb
-    - libmount-dev
-    - libsmartcols1
-    - libsmartcols1-udeb
-    - libsmartcols-dev
-    - libuuid1
-    - uuid-runtime
-    - libuuid1-udeb
-    - uuid-dev
-    - util-linux-udeb
-    - rfkill
-    - eject
-    - eject-udeb
-    - util-linux-extra
-    - liblastlog2-2
-    - liblastlog2-dev
-    - libpam-lastlog2
-    - lastlog2
-    - login
-  visiblename: util-linux
-  version: "2.41"
-  origversion: 2.41-4ubuntu4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - utils
-  vulnerable: true
-- repo: ubuntu_25_10
   subrepo: questing-updates/main
   srcname: util-linux
   binnames:
@@ -14612,8 +14566,8 @@
   categories:
     - utils
   vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute-updates/main
+- repo: ubuntu_25_10
+  subrepo: questing/main
   srcname: util-linux
   binnames:
     - util-linux
@@ -14650,8 +14604,8 @@
     - lastlog2
     - login
   visiblename: util-linux
-  version: 2.41.3
-  origversion: 2.41.3-3ubuntu2.2
+  version: "2.41"
+  origversion: 2.41-4ubuntu4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -14698,6 +14652,52 @@
   visiblename: util-linux
   version: 2.41.3
   origversion: 2.41.3-3ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - utils
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute-updates/main
+  srcname: util-linux
+  binnames:
+    - util-linux
+    - util-linux-locales
+    - mount
+    - bsdutils
+    - bsdextrautils
+    - fdisk
+    - fdisk-udeb
+    - libblkid1
+    - libblkid1-udeb
+    - libblkid-dev
+    - libfdisk1
+    - libfdisk1-udeb
+    - libfdisk-dev
+    - libmount1
+    - libmount1-udeb
+    - libmount-dev
+    - libsmartcols1
+    - libsmartcols1-udeb
+    - libsmartcols-dev
+    - libuuid1
+    - uuid-runtime
+    - libuuid1-udeb
+    - uuid-dev
+    - util-linux-udeb
+    - rfkill
+    - eject
+    - eject-udeb
+    - util-linux-extra
+    - liblastlog2-2
+    - liblastlog2-dev
+    - libpam-lastlog2
+    - lastlog2
+    - login
+  visiblename: util-linux
+  version: 2.41.3
+  origversion: 2.41.3-3ubuntu2.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
