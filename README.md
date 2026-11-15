@@ -40,12 +40,12 @@ Total: **248,373** lines of code across **1267** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 25 | 31 | 2 | 8 | 94 |
-| last60d | 2026-09-15 | 0 | 74 | 35 | 12 | 9 | 224 |
-| 90d | 2026-08-16 | 0 | 113 | 38 | 22 | 15 | 336 |
-| last180d | 2026-05-18 | 0 | 247 | 42 | 53 | 20 | 767 |
-| 360d | 2025-11-19 | 0 | 583 | 49 | 123 | 51 | 2067 |
-| last720d | 2024-11-24 | 0 | 893 | 51 | 249 | 115 | 3400 |
+| 30d | 2026-10-16 | 0 | 25 | 30 | 2 | 8 | 57 |
+| last60d | 2026-09-16 | 0 | 73 | 34 | 9 | 9 | 192 |
+| 90d | 2026-08-17 | 0 | 113 | 38 | 21 | 15 | 306 |
+| last180d | 2026-05-19 | 0 | 243 | 42 | 53 | 20 | 744 |
+| 360d | 2025-11-20 | 0 | 583 | 49 | 123 | 51 | 2026 |
+| last720d | 2024-11-25 | 0 | 891 | 51 | 249 | 114 | 3399 |
 
 ## Distribution status
 
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:15:05Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:23:38Z._
