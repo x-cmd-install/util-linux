@@ -30,7 +30,7 @@ Total: **248,373** lines of code across **1267** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,252 · **Forks**: 1,436 · **Open issues**: 1,748 · **Contributors**: 874
+- **Stars**: 3,253 · **Forks**: 1,436 · **Open issues**: 1,748 · **Contributors**: 874
 
 ## Totals (cumulative)
 
@@ -40,16 +40,16 @@ Total: **248,373** lines of code across **1267** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 25 | 30 | 2 | 8 | 57 |
-| last60d | 2026-09-17 | 0 | 71 | 34 | 9 | 9 | 192 |
-| 90d | 2026-08-18 | 0 | 111 | 38 | 21 | 15 | 306 |
-| last180d | 2026-05-20 | 0 | 243 | 42 | 52 | 20 | 744 |
-| 360d | 2025-11-21 | 0 | 583 | 49 | 123 | 51 | 2026 |
-| last720d | 2024-11-26 | 0 | 890 | 51 | 249 | 114 | 3387 |
+| 30d | 2026-10-18 | 0 | 23 | 30 | 2 | 8 | 57 |
+| last60d | 2026-09-18 | 0 | 68 | 34 | 9 | 9 | 192 |
+| 90d | 2026-08-19 | 0 | 109 | 37 | 21 | 15 | 306 |
+| last180d | 2026-05-21 | 0 | 243 | 42 | 52 | 20 | 744 |
+| 360d | 2025-11-22 | 0 | 582 | 49 | 123 | 51 | 2026 |
+| last720d | 2024-11-27 | 0 | 890 | 51 | 248 | 112 | 3385 |
 
 ## Distribution status
 
-Reported by **901** distros on [repology.org](https://repology.org/project/util-linux). **168** are ✅ on the latest upstream release, **688** are ⚠️ on an older version.
+Reported by **902** distros on [repology.org](https://repology.org/project/util-linux). **172** are ✅ on the latest upstream release, **685** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -61,7 +61,7 @@ Reported by **901** distros on [repology.org](https://repology.org/project/util-
 | Arch | `2.42.4` | ✅ latest |
 | Homebrew | `2.42.4` | ✅ latest |
 | Fedora rawhide | `2.42.4` | ✅ latest |
-| Nix unstable | `2.42.4` | ✅ latest |
+| Nix unstable | `1003.1-2008` | ignored |
 | Void | `2.41.4` | ⚠️ outdated |
 | Alpine edge | `2.42.4` | ✅ latest |
 | openSUSE Tumbleweed | `2.42.4` | ✅ latest |
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:23:23Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T09:06:35Z._

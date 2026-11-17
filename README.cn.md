@@ -30,7 +30,7 @@ x install util-linux
 
 ## 流行度
 
-- **Star**: 3,252 · **Fork**: 1,436 · **开放 issue**: 1,748 · **贡献者**: 874
+- **Star**: 3,253 · **Fork**: 1,436 · **开放 issue**: 1,748 · **贡献者**: 874
 
 ## 累计统计
 
@@ -40,16 +40,16 @@ x install util-linux
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 25 | 30 | 2 | 8 | 57 |
-| last60d | 2026-09-17 | 0 | 71 | 34 | 9 | 9 | 192 |
-| 90d | 2026-08-18 | 0 | 111 | 38 | 21 | 15 | 306 |
-| last180d | 2026-05-20 | 0 | 243 | 42 | 52 | 20 | 744 |
-| 360d | 2025-11-21 | 0 | 583 | 49 | 123 | 51 | 2026 |
-| last720d | 2024-11-26 | 0 | 890 | 51 | 249 | 114 | 3387 |
+| 30d | 2026-10-18 | 0 | 23 | 30 | 2 | 8 | 57 |
+| last60d | 2026-09-18 | 0 | 68 | 34 | 9 | 9 | 192 |
+| 90d | 2026-08-19 | 0 | 109 | 37 | 21 | 15 | 306 |
+| last180d | 2026-05-21 | 0 | 243 | 42 | 52 | 20 | 744 |
+| 360d | 2025-11-22 | 0 | 582 | 49 | 123 | 51 | 2026 |
+| last720d | 2024-11-27 | 0 | 890 | 51 | 248 | 112 | 3385 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/util-linux) 上共有 **901** 个发行版报告此项目。**168** 个 ✅ 已是最新上游版本，**688** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/util-linux) 上共有 **902** 个发行版报告此项目。**172** 个 ✅ 已是最新上游版本，**685** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -61,7 +61,7 @@ x install util-linux
 | Arch | `2.42.4` | ✅ latest |
 | Homebrew | `2.42.4` | ✅ latest |
 | Fedora rawhide | `2.42.4` | ✅ latest |
-| Nix unstable | `2.42.4` | ✅ latest |
+| Nix unstable | `1003.1-2008` | ignored |
 | Void | `2.41.4` | ⚠️ outdated |
 | Alpine edge | `2.42.4` | ✅ latest |
 | openSUSE Tumbleweed | `2.42.4` | ✅ latest |
@@ -75,4 +75,4 @@ util-linux 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T06:23:24Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T09:06:37Z._
