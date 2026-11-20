@@ -12,15 +12,15 @@ x install util-linux
 
 ## Code insight
 
-Total: **248,826** lines of code across **1268** files in the top 5 languages.
+Total: **249,001** lines of code across **1271** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 181,335 | 32,479 | 34,509 | 485 |
-| Bash | 20,349 | 7,137 | 6,565 | 446 |
-| AsciiDoc | 14,373 | 1,658 | 6,868 | 170 |
-| CHeader | 13,657 | 4,990 | 3,121 | 138 |
-| Meson | 6,047 | 44 | 694 | 29 |
+| C | 181,405 | 32,507 | 34,522 | 485 |
+| Bash | 20,437 | 7,165 | 6,601 | 449 |
+| AsciiDoc | 14,381 | 1,658 | 6,870 | 170 |
+| CHeader | 13,661 | 4,990 | 3,122 | 138 |
+| Meson | 6,049 | 44 | 694 | 29 |
 
 ## Source
 
@@ -30,26 +30,26 @@ Total: **248,826** lines of code across **1268** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 3,254 · **Forks**: 1,439 · **Open issues**: 1,750 · **Contributors**: 877
+- **Stars**: 3,254 · **Forks**: 1,438 · **Open issues**: 1,751 · **Contributors**: 878
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 2398 · **Open PRs**: 58 · **Closed issues**: 1362 · **Open issues**: 388 · **Commits**: 23512
+- **Releases**: 0 · **Merged PRs**: 2402 · **Open PRs**: 62 · **Closed issues**: 1363 · **Open issues**: 388 · **Commits**: 23523
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 28 | 22 | 3 | 8 | 85 |
-| last60d | 2026-09-20 | 0 | 80 | 29 | 10 | 10 | 222 |
-| 90d | 2026-08-21 | 0 | 119 | 32 | 22 | 15 | 336 |
-| last180d | 2026-05-23 | 0 | 254 | 37 | 53 | 21 | 774 |
-| 360d | 2025-11-24 | 0 | 591 | 44 | 124 | 52 | 2056 |
-| last720d | 2024-11-29 | 0 | 899 | 46 | 249 | 113 | 3408 |
+| 30d | 2026-10-21 | 0 | 28 | 25 | 3 | 9 | 91 |
+| last60d | 2026-09-21 | 0 | 80 | 32 | 9 | 11 | 228 |
+| 90d | 2026-08-22 | 0 | 122 | 36 | 22 | 16 | 342 |
+| last180d | 2026-05-24 | 0 | 257 | 41 | 52 | 22 | 780 |
+| 360d | 2025-11-25 | 0 | 592 | 48 | 124 | 53 | 2062 |
+| last720d | 2024-11-30 | 0 | 903 | 50 | 250 | 113 | 3418 |
 
 ## Distribution status
 
-Reported by **900** distros on [repology.org](https://repology.org/project/util-linux). **172** are ✅ on the latest upstream release, **683** are ⚠️ on an older version.
+Reported by **901** distros on [repology.org](https://repology.org/project/util-linux). **173** are ✅ on the latest upstream release, **683** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -75,4 +75,4 @@ Install metadata for util-linux lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T07:22:04Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T07:42:07Z._
