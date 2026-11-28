@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:21:42Z
+  collectedAt: 2026-11-28T07:37:32Z
 timeline:
   created: 2011-09-07
   lastCommit: 2026-11-24
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 3262
+  star: 3263
   watcher: 100
-  fork: 1439
+  fork: 1440
   release: 0
   contributor: 878
   pullRequest: 2976
@@ -38,15 +38,15 @@ language:
 totalBytes: 8696355
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 20
+    mergedPR: 19
     openPR: 29
     closedIssue: 2
     openIssue: 13
     commit: 82
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 75
     openPR: 37
@@ -54,37 +54,37 @@ recent:
     openIssue: 17
     commit: 221
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 114
-    openPR: 41
+    mergedPR: 111
+    openPR: 40
     closedIssue: 21
     openIssue: 20
     commit: 320
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
-    mergedPR: 242
+    mergedPR: 239
     openPR: 46
     closedIssue: 48
     openIssue: 28
     commit: 724
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
-    mergedPR: 582
+    mergedPR: 580
     openPR: 53
-    closedIssue: 121
-    openIssue: 58
+    closedIssue: 119
+    openIssue: 57
     commit: 2015
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
-    mergedPR: 902
+    mergedPR: 901
     openPR: 55
     closedIssue: 247
     openIssue: 117
-    commit: 3406
+    commit: 3405
 total:
   release: 0
   mergedPR: 2403
@@ -94,7 +94,7 @@ total:
   commit: 23525
 ---
 path: /home/runner/.x-repo/github.com/util-linux/util-linux
-collectedAt: 2026-11-27T08:22:31Z
+collectedAt: 2026-11-28T07:38:09Z
 loc:
   C:
     code: 181405
